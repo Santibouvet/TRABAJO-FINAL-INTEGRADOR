@@ -1,0 +1,12 @@
+# Material de trabajo que no forma parte del código entregado
+_respaldo/
+*.doc
+*.docx
+~$*
+normas.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

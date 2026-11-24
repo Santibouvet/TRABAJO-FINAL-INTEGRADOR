@@ -1,0 +1,481 @@
+t=    0s | T= 26.50C | Vmed=3.201V | e= -4.51C ( -601.4 mV) | u= 79.19% | Qcool= 213.8kW | Qit= 160.0kW | ALARMA MAYOR
+t=   30s | T= 25.77C | Vmed=3.099V | e= -3.74C ( -498.7 mV) | u= 77.17% | Qcool= 208.4kW | Qit= 154.4kW | ALARMA MAYOR
+t=   60s | T= 25.09C | Vmed=3.006V | e= -3.04C ( -405.9 mV) | u= 75.27% | Qcool= 203.2kW | Qit= 156.3kW | ALARMA MAYOR
+t=   90s | T= 24.51C | Vmed=2.933V | e= -2.49C ( -332.6 mV) | u= 73.78% | Qcool= 199.2kW | Qit= 157.1kW | ALARMA MENOR
+t=  120s | T= 23.99C | Vmed=2.869V | e= -2.02C ( -269.0 mV) | u= 72.47% | Qcool= 195.7kW | Qit= 154.5kW | ALARMA MENOR
+t=  150s | T= 23.50C | Vmed=2.791V | e= -1.43C ( -190.8 mV) | u= 70.61% | Qcool= 190.7kW | Qit= 153.5kW | ALARMA MENOR
+t=  180s | T= 23.07C | Vmed=2.747V | e= -1.10C ( -146.8 mV) | u= 69.64% | Qcool= 188.0kW | Qit= 152.9kW | ALARMA MENOR
+t=  210s | T= 22.70C | Vmed=2.688V | e= -0.66C (  -88.2 mV) | u= 68.15% | Qcool= 184.0kW | Qit= 154.8kW | NORMALIDAD
+t=  240s | T= 22.38C | Vmed=2.639V | e= -0.29C (  -39.3 mV) | u= 66.86% | Qcool= 180.5kW | Qit= 152.4kW | NORMALIDAD
+t=  270s | T= 22.09C | Vmed=2.615V | e= -0.11C (  -14.9 mV) | u= 66.21% | Qcool= 178.8kW | Qit= 152.4kW | NORMALIDAD
+t=  300s | T= 21.85C | Vmed=2.586V | e= +0.11C (  +14.5 mV) | u= 65.37% | Qcool= 176.5kW | Qit= 155.0kW | NORMALIDAD
+t=  330s | T= 21.66C | Vmed=2.566V | e= +0.26C (  +34.0 mV) | u= 64.77% | Qcool= 174.9kW | Qit= 155.7kW | NORMALIDAD
+t=  360s | T= 21.50C | Vmed=2.532V | e= +0.51C (  +68.2 mV) | u= 63.70% | Qcool= 172.0kW | Qit= 154.8kW | NORMALIDAD
+t=  390s | T= 21.38C | Vmed=2.517V | e= +0.62C (  +82.9 mV) | u= 63.16% | Qcool= 170.5kW | Qit= 155.1kW | NORMALIDAD
+t=  420s | T= 21.29C | Vmed=2.498V | e= +0.77C ( +102.4 mV) | u= 62.44% | Qcool= 168.6kW | Qit= 154.4kW | NORMALIDAD
+t=  450s | T= 21.20C | Vmed=2.488V | e= +0.84C ( +112.2 mV) | u= 61.99% | Qcool= 167.4kW | Qit= 152.7kW | NORMALIDAD
+t=  480s | T= 21.10C | Vmed=2.473V | e= +0.95C ( +126.9 mV) | u= 61.37% | Qcool= 165.7kW | Qit= 150.1kW | NORMALIDAD
+t=  510s | T= 20.99C | Vmed=2.458V | e= +1.06C ( +141.5 mV) | u= 60.72% | Qcool= 164.0kW | Qit= 149.5kW | ALARMA MENOR
+t=  540s | T= 20.89C | Vmed=2.454V | e= +1.10C ( +146.4 mV) | u= 60.34% | Qcool= 162.9kW | Qit= 147.0kW | ALARMA MENOR
+t=  570s | T= 20.80C | Vmed=2.449V | e= +1.13C ( +151.3 mV) | u= 59.96% | Qcool= 161.9kW | Qit= 148.3kW | ALARMA MENOR
+t=  600s | T= 20.73C | Vmed=2.434V | e= +1.24C ( +166.0 mV) | u= 59.27% | Qcool= 160.0kW | Qit= 148.7kW | ALARMA MENOR
+t=  630s | T= 20.73C | Vmed=2.424V | e= +1.32C ( +175.8 mV) | u= 58.71% | Qcool= 158.5kW | Qit= 152.0kW | ALARMA MENOR
+t=  660s | T= 20.77C | Vmed=2.429V | e= +1.28C ( +170.9 mV) | u= 58.56% | Qcool= 158.1kW | Qit= 154.1kW | ALARMA MENOR
+t=  690s | T= 20.84C | Vmed=2.449V | e= +1.13C ( +151.3 mV) | u= 58.85% | Qcool= 158.9kW | Qit= 157.7kW | ALARMA MENOR
+t=  720s | T= 20.90C | Vmed=2.468V | e= +0.99C ( +131.8 mV) | u= 59.17% | Qcool= 159.8kW | Qit= 154.3kW | NORMALIDAD
+t=  750s | T= 20.95C | Vmed=2.463V | e= +1.02C ( +136.7 mV) | u= 58.81% | Qcool= 158.8kW | Qit= 155.9kW | ALARMA MENOR
+t=  780s | T= 21.00C | Vmed=2.468V | e= +0.99C ( +131.8 mV) | u= 58.73% | Qcool= 158.6kW | Qit= 154.2kW | NORMALIDAD
+t=  810s | T= 21.04C | Vmed=2.468V | e= +0.99C ( +131.8 mV) | u= 58.51% | Qcool= 158.0kW | Qit= 152.4kW | NORMALIDAD
+t=  840s | T= 21.06C | Vmed=2.473V | e= +0.95C ( +126.9 mV) | u= 58.43% | Qcool= 157.8kW | Qit= 152.4kW | NORMALIDAD
+t=  870s | T= 21.12C | Vmed=2.488V | e= +0.84C ( +112.2 mV) | u= 58.65% | Qcool= 158.4kW | Qit= 154.9kW | NORMALIDAD
+t=  900s | T= 21.21C | Vmed=2.488V | e= +0.84C ( +112.2 mV) | u= 58.46% | Qcool= 157.9kW | Qit= 158.7kW | NORMALIDAD
+t=  930s | T= 21.32C | Vmed=2.498V | e= +0.77C ( +102.4 mV) | u= 58.56% | Qcool= 158.1kW | Qit= 162.2kW | NORMALIDAD
+t=  960s | T= 21.46C | Vmed=2.527V | e= +0.55C (  +73.1 mV) | u= 59.26% | Qcool= 160.0kW | Qit= 162.2kW | NORMALIDAD
+t=  990s | T= 21.57C | Vmed=2.532V | e= +0.51C (  +68.2 mV) | u= 59.28% | Qcool= 160.1kW | Qit= 159.7kW | NORMALIDAD
+t= 1020s | T= 21.66C | Vmed=2.551V | e= +0.37C (  +48.7 mV) | u= 59.74% | Qcool= 161.3kW | Qit= 160.0kW | NORMALIDAD
+t= 1050s | T= 21.71C | Vmed=2.571V | e= +0.22C (  +29.1 mV) | u= 60.24% | Qcool= 162.6kW | Qit= 157.8kW | NORMALIDAD
+t= 1080s | T= 21.73C | Vmed=2.566V | e= +0.26C (  +34.0 mV) | u= 60.04% | Qcool= 162.1kW | Qit= 158.3kW | NORMALIDAD
+t= 1110s | T= 21.76C | Vmed=2.571V | e= +0.22C (  +29.1 mV) | u= 60.13% | Qcool= 162.4kW | Qit= 158.9kW | NORMALIDAD
+t= 1140s | T= 21.79C | Vmed=2.571V | e= +0.22C (  +29.1 mV) | u= 60.08% | Qcool= 162.2kW | Qit= 155.9kW | NORMALIDAD
+t= 1170s | T= 21.79C | Vmed=2.571V | e= +0.22C (  +29.1 mV) | u= 60.03% | Qcool= 162.1kW | Qit= 156.1kW | NORMALIDAD
+t= 1200s | T= 21.79C | Vmed=2.571V | e= +0.22C (  +29.1 mV) | u= 59.99% | Qcool= 162.0kW | Qit= 157.8kW | NORMALIDAD
+t= 1230s | T= 21.82C | Vmed=2.571V | e= +0.22C (  +29.1 mV) | u= 59.94% | Qcool= 161.8kW | Qit= 158.9kW | NORMALIDAD
+t= 1260s | T= 21.89C | Vmed=2.586V | e= +0.11C (  +14.5 mV) | u= 60.32% | Qcool= 162.9kW | Qit= 162.5kW | NORMALIDAD
+t= 1290s | T= 21.97C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 60.44% | Qcool= 163.2kW | Qit= 164.5kW | NORMALIDAD
+t= 1320s | T= 22.03C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 60.86% | Qcool= 164.3kW | Qit= 160.6kW | NORMALIDAD
+t= 1350s | T= 22.05C | Vmed=2.615V | e= -0.11C (  -14.9 mV) | u= 61.15% | Qcool= 165.1kW | Qit= 160.7kW | NORMALIDAD
+t= 1380s | T= 22.07C | Vmed=2.610V | e= -0.07C (  -10.0 mV) | u= 61.03% | Qcool= 164.8kW | Qit= 160.6kW | NORMALIDAD
+t= 1410s | T= 22.07C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 60.91% | Qcool= 164.4kW | Qit= 160.1kW | NORMALIDAD
+t= 1440s | T= 22.09C | Vmed=2.620V | e= -0.15C (  -19.7 mV) | u= 61.35% | Qcool= 165.6kW | Qit= 160.4kW | NORMALIDAD
+t= 1470s | T= 22.10C | Vmed=2.615V | e= -0.11C (  -14.9 mV) | u= 61.23% | Qcool= 165.3kW | Qit= 162.8kW | NORMALIDAD
+t= 1500s | T= 22.16C | Vmed=2.620V | e= -0.15C (  -19.7 mV) | u= 61.40% | Qcool= 165.8kW | Qit= 164.9kW | NORMALIDAD
+t= 1530s | T= 22.21C | Vmed=2.634V | e= -0.26C (  -34.4 mV) | u= 61.87% | Qcool= 167.0kW | Qit= 163.1kW | NORMALIDAD
+t= 1560s | T= 22.23C | Vmed=2.630V | e= -0.22C (  -29.5 mV) | u= 61.78% | Qcool= 166.8kW | Qit= 162.0kW | NORMALIDAD
+t= 1590s | T= 22.22C | Vmed=2.625V | e= -0.18C (  -24.6 mV) | u= 61.69% | Qcool= 166.6kW | Qit= 159.9kW | NORMALIDAD
+t= 1620s | T= 22.20C | Vmed=2.620V | e= -0.15C (  -19.7 mV) | u= 61.58% | Qcool= 166.3kW | Qit= 159.0kW | NORMALIDAD
+t= 1650s | T= 22.16C | Vmed=2.625V | e= -0.18C (  -24.6 mV) | u= 61.76% | Qcool= 166.8kW | Qit= 153.9kW | NORMALIDAD
+t= 1680s | T= 22.09C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 61.23% | Qcool= 165.3kW | Qit= 155.3kW | NORMALIDAD
+t= 1710s | T= 22.05C | Vmed=2.600V | e= -0.00C (   -0.2 mV) | u= 61.09% | Qcool= 164.9kW | Qit= 157.8kW | NORMALIDAD
+t= 1740s | T= 22.03C | Vmed=2.595V | e= +0.04C (   +4.7 mV) | u= 60.95% | Qcool= 164.6kW | Qit= 155.0kW | NORMALIDAD
+t= 1770s | T= 22.01C | Vmed=2.586V | e= +0.11C (  +14.5 mV) | u= 60.65% | Qcool= 163.8kW | Qit= 158.0kW | NORMALIDAD
+t= 1800s | T= 22.00C | Vmed=2.595V | e= +0.04C (   +4.7 mV) | u= 60.91% | Qcool= 164.5kW | Qit= 160.1kW | NORMALIDAD
+t= 1830s | T= 22.04C | Vmed=2.615V | e= -0.11C (  -14.9 mV) | u= 61.48% | Qcool= 166.0kW | Qit= 161.7kW | NORMALIDAD
+t= 1860s | T= 22.07C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 61.22% | Qcool= 165.3kW | Qit= 165.3kW | NORMALIDAD
+t= 1890s | T= 22.14C | Vmed=2.610V | e= -0.07C (  -10.0 mV) | u= 61.37% | Qcool= 165.7kW | Qit= 163.4kW | NORMALIDAD
+t= 1920s | T= 22.18C | Vmed=2.625V | e= -0.18C (  -24.6 mV) | u= 61.82% | Qcool= 166.9kW | Qit= 162.7kW | NORMALIDAD
+t= 1950s | T= 22.19C | Vmed=2.634V | e= -0.26C (  -34.4 mV) | u= 62.15% | Qcool= 167.8kW | Qit= 160.2kW | NORMALIDAD
+t= 1980s | T= 22.17C | Vmed=2.620V | e= -0.15C (  -19.7 mV) | u= 61.77% | Qcool= 166.8kW | Qit= 159.6kW | NORMALIDAD
+t= 2010s | T= 22.16C | Vmed=2.625V | e= -0.18C (  -24.6 mV) | u= 61.95% | Qcool= 167.3kW | Qit= 159.8kW | NORMALIDAD
+t= 2040s | T= 22.15C | Vmed=2.610V | e= -0.07C (  -10.0 mV) | u= 61.56% | Qcool= 166.2kW | Qit= 162.2kW | NORMALIDAD
+t= 2070s | T= 22.18C | Vmed=2.620V | e= -0.15C (  -19.7 mV) | u= 61.87% | Qcool= 167.0kW | Qit= 164.0kW | NORMALIDAD
+t= 2100s | T= 22.22C | Vmed=2.630V | e= -0.22C (  -29.5 mV) | u= 62.19% | Qcool= 167.9kW | Qit= 164.4kW | NORMALIDAD
+t= 2130s | T= 22.22C | Vmed=2.634V | e= -0.26C (  -34.4 mV) | u= 62.38% | Qcool= 168.4kW | Qit= 158.8kW | NORMALIDAD
+t= 2160s | T= 22.18C | Vmed=2.610V | e= -0.07C (  -10.0 mV) | u= 61.72% | Qcool= 166.6kW | Qit= 160.3kW | NORMALIDAD
+t= 2190s | T= 22.18C | Vmed=2.634V | e= -0.26C (  -34.4 mV) | u= 62.45% | Qcool= 168.6kW | Qit= 160.7kW | NORMALIDAD
+t= 2220s | T= 22.16C | Vmed=2.620V | e= -0.15C (  -19.7 mV) | u= 62.08% | Qcool= 167.6kW | Qit= 160.5kW | NORMALIDAD
+t= 2250s | T= 22.13C | Vmed=2.615V | e= -0.11C (  -14.9 mV) | u= 61.97% | Qcool= 167.3kW | Qit= 158.6kW | NORMALIDAD
+t= 2280s | T= 22.10C | Vmed=2.620V | e= -0.15C (  -19.7 mV) | u= 62.14% | Qcool= 167.8kW | Qit= 160.7kW | NORMALIDAD
+t= 2310s | T= 22.08C | Vmed=2.610V | e= -0.07C (  -10.0 mV) | u= 61.88% | Qcool= 167.1kW | Qit= 160.5kW | NORMALIDAD
+t= 2340s | T= 22.05C | Vmed=2.610V | e= -0.07C (  -10.0 mV) | u= 61.90% | Qcool= 167.1kW | Qit= 158.8kW | NORMALIDAD
+t= 2370s | T= 22.02C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 61.77% | Qcool= 166.8kW | Qit= 158.7kW | NORMALIDAD
+t= 2400s | T= 22.00C | Vmed=2.600V | e= -0.00C (   -0.2 mV) | u= 61.64% | Qcool= 166.4kW | Qit= 157.9kW | NORMALIDAD
+t= 2430s | T= 21.99C | Vmed=2.595V | e= +0.04C (   +4.7 mV) | u= 61.49% | Qcool= 166.0kW | Qit= 159.4kW | NORMALIDAD
+t= 2460s | T= 21.98C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 61.34% | Qcool= 165.6kW | Qit= 159.2kW | NORMALIDAD
+t= 2490s | T= 21.99C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 61.76% | Qcool= 166.7kW | Qit= 162.0kW | NORMALIDAD
+t= 2520s | T= 22.00C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 61.76% | Qcool= 166.8kW | Qit= 161.1kW | NORMALIDAD
+t= 2550s | T= 22.00C | Vmed=2.595V | e= +0.04C (   +4.7 mV) | u= 61.49% | Qcool= 166.0kW | Qit= 161.1kW | NORMALIDAD
+t= 2580s | T= 22.05C | Vmed=2.610V | e= -0.07C (  -10.0 mV) | u= 61.91% | Qcool= 167.2kW | Qit= 166.4kW | NORMALIDAD
+t= 2610s | T= 22.10C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 61.78% | Qcool= 166.8kW | Qit= 165.1kW | NORMALIDAD
+t= 2640s | T= 22.13C | Vmed=2.620V | e= -0.15C (  -19.7 mV) | u= 62.22% | Qcool= 168.0kW | Qit= 163.5kW | NORMALIDAD
+t= 2670s | T= 22.12C | Vmed=2.610V | e= -0.07C (  -10.0 mV) | u= 61.97% | Qcool= 167.3kW | Qit= 158.2kW | NORMALIDAD
+t= 2700s | T= 22.09C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 61.84% | Qcool= 167.0kW | Qit= 162.0kW | NORMALIDAD
+t= 2730s | T= 22.11C | Vmed=2.620V | e= -0.15C (  -19.7 mV) | u= 62.28% | Qcool= 167.1kW | Qit= 160.4kW | NORMALIDAD
+t= 2760s | T= 22.10C | Vmed=2.610V | e= -0.07C (  -10.0 mV) | u= 62.02% | Qcool= 165.5kW | Qit= 157.8kW | NORMALIDAD
+t= 2790s | T= 22.13C | Vmed=2.620V | e= -0.15C (  -19.7 mV) | u= 62.33% | Qcool= 165.3kW | Qit= 159.0kW | NORMALIDAD
+t= 2820s | T= 22.17C | Vmed=2.625V | e= -0.18C (  -24.6 mV) | u= 62.51% | Qcool= 164.7kW | Qit= 157.5kW | NORMALIDAD
+t= 2850s | T= 22.24C | Vmed=2.630V | e= -0.22C (  -29.5 mV) | u= 62.69% | Qcool= 164.2kW | Qit= 160.2kW | NORMALIDAD
+t= 2880s | T= 22.35C | Vmed=2.634V | e= -0.26C (  -34.4 mV) | u= 62.88% | Qcool= 163.7kW | Qit= 160.7kW | NORMALIDAD
+t= 2910s | T= 22.45C | Vmed=2.659V | e= -0.44C (  -58.8 mV) | u= 63.66% | Qcool= 164.7kW | Qit= 155.3kW | NORMALIDAD
+t= 2940s | T= 22.53C | Vmed=2.664V | e= -0.48C (  -63.7 mV) | u= 63.90% | Qcool= 164.3kW | Qit= 157.0kW | NORMALIDAD
+t= 2970s | T= 22.64C | Vmed=2.688V | e= -0.66C (  -88.2 mV) | u= 64.73% | Qcool= 165.3kW | Qit= 158.9kW | NORMALIDAD
+t= 3000s | T= 22.79C | Vmed=2.713V | e= -0.84C ( -112.6 mV) | u= 65.60% | Qcool= 166.5kW | Qit= 160.5kW | NORMALIDAD
+t= 3030s | T= 22.96C | Vmed=2.732V | e= -0.99C ( -132.2 mV) | u= 66.36% | Qcool= 167.3kW | Qit= 161.2kW | NORMALIDAD
+t= 3060s | T= 23.13C | Vmed=2.752V | e= -1.14C ( -151.7 mV) | u= 67.15% | Qcool= 168.3kW | Qit= 163.7kW | ALARMA MENOR
+t= 3090s | T= 23.34C | Vmed=2.796V | e= -1.47C ( -195.7 mV) | u= 68.70% | Qcool= 171.0kW | Qit= 165.9kW | ALARMA MENOR
+t= 3120s | T= 23.56C | Vmed=2.796V | e= -1.47C ( -195.7 mV) | u= 69.03% | Qcool= 170.7kW | Qit= 169.1kW | ALARMA MENOR
+t= 3150s | T= 23.80C | Vmed=2.845V | e= -1.83C ( -244.6 mV) | u= 70.79% | Qcool= 173.9kW | Qit= 167.2kW | ALARMA MENOR
+t= 3180s | T= 23.99C | Vmed=2.859V | e= -1.94C ( -259.2 mV) | u= 71.63% | Qcool= 174.8kW | Qit= 165.1kW | ALARMA MENOR
+t= 3210s | T= 24.16C | Vmed=2.884V | e= -2.13C ( -283.7 mV) | u= 72.79% | Qcool= 176.5kW | Qit= 163.2kW | ALARMA MENOR
+t= 3240s | T= 24.30C | Vmed=2.903V | e= -2.27C ( -303.2 mV) | u= 73.83% | Qcool= 177.8kW | Qit= 162.3kW | ALARMA MENOR
+t= 3270s | T= 24.44C | Vmed=2.918V | e= -2.38C ( -317.9 mV) | u= 74.77% | Qcool= 178.9kW | Qit= 165.0kW | ALARMA MENOR
+t= 3300s | T= 24.60C | Vmed=2.947V | e= -2.60C ( -347.2 mV) | u= 76.16% | Qcool= 181.0kW | Qit= 162.6kW | ALARMA MAYOR
+t= 3330s | T= 24.70C | Vmed=2.957V | e= -2.68C ( -357.0 mV) | u= 77.03% | Qcool= 183.0kW | Qit= 162.5kW | ALARMA MAYOR
+t= 3360s | T= 24.78C | Vmed=2.972V | e= -2.79C ( -371.7 mV) | u= 78.06% | Qcool= 185.5kW | Qit= 164.1kW | ALARMA MAYOR
+t= 3390s | T= 24.82C | Vmed=2.986V | e= -2.90C ( -386.3 mV) | u= 79.11% | Qcool= 188.0kW | Qit= 161.4kW | ALARMA MAYOR
+t= 3420s | T= 24.79C | Vmed=2.977V | e= -2.82C ( -376.5 mV) | u= 79.46% | Qcool= 188.8kW | Qit= 158.6kW | ALARMA MAYOR
+t= 3450s | T= 24.72C | Vmed=2.957V | e= -2.68C ( -357.0 mV) | u= 79.52% | Qcool= 188.9kW | Qit= 155.6kW | ALARMA MAYOR
+t= 3480s | T= 24.65C | Vmed=2.957V | e= -2.68C ( -357.0 mV) | u= 80.11% | Qcool= 190.3kW | Qit= 158.5kW | ALARMA MAYOR
+t= 3510s | T= 24.57C | Vmed=2.933V | e= -2.49C ( -332.6 mV) | u= 79.99% | Qcool= 190.0kW | Qit= 155.5kW | ALARMA MENOR
+t= 3540s | T= 24.48C | Vmed=2.933V | e= -2.49C ( -332.6 mV) | u= 80.54% | Qcool= 191.4kW | Qit= 157.3kW | ALARMA MENOR
+t= 3570s | T= 24.41C | Vmed=2.928V | e= -2.46C ( -327.7 mV) | u= 80.95% | Qcool= 192.3kW | Qit= 159.0kW | ALARMA MENOR
+t= 3600s | T= 24.35C | Vmed=2.908V | e= -2.31C ( -308.1 mV) | u= 80.92% | Qcool= 192.3kW | Qit= 162.8kW | ALARMA MENOR
+t= 3630s | T= 24.30C | Vmed=2.908V | e= -2.31C ( -308.1 mV) | u= 81.44% | Qcool= 193.5kW | Qit= 159.5kW | ALARMA MENOR
+t= 3660s | T= 24.21C | Vmed=2.898V | e= -2.24C ( -298.3 mV) | u= 81.66% | Qcool= 194.0kW | Qit= 157.2kW | ALARMA MENOR
+t= 3690s | T= 24.09C | Vmed=2.889V | e= -2.16C ( -288.6 mV) | u= 81.87% | Qcool= 194.5kW | Qit= 157.7kW | ALARMA MENOR
+t= 3720s | T= 23.98C | Vmed=2.864V | e= -1.98C ( -264.1 mV) | u= 81.63% | Qcool= 194.0kW | Qit= 159.3kW | ALARMA MENOR
+t= 3750s | T= 23.89C | Vmed=2.854V | e= -1.91C ( -254.3 mV) | u= 81.78% | Qcool= 194.3kW | Qit= 159.8kW | ALARMA MENOR
+t= 3780s | T= 23.82C | Vmed=2.849V | e= -1.87C ( -249.5 mV) | u= 82.06% | Qcool= 195.0kW | Qit= 160.3kW | ALARMA MENOR
+t= 3810s | T= 23.74C | Vmed=2.840V | e= -1.80C ( -239.7 mV) | u= 82.19% | Qcool= 195.3kW | Qit= 159.1kW | ALARMA MENOR
+t= 3840s | T= 23.64C | Vmed=2.815V | e= -1.61C ( -215.2 mV) | u= 81.87% | Qcool= 194.5kW | Qit= 158.7kW | ALARMA MENOR
+t= 3870s | T= 23.57C | Vmed=2.815V | e= -1.61C ( -215.2 mV) | u= 82.23% | Qcool= 195.4kW | Qit= 160.3kW | ALARMA MENOR
+t= 3900s | T= 23.48C | Vmed=2.796V | e= -1.47C ( -195.7 mV) | u= 82.01% | Qcool= 194.9kW | Qit= 158.0kW | ALARMA MENOR
+t= 3930s | T= 23.39C | Vmed=2.786V | e= -1.39C ( -185.9 mV) | u= 82.05% | Qcool= 195.0kW | Qit= 160.8kW | ALARMA MENOR
+t= 3960s | T= 23.34C | Vmed=2.796V | e= -1.47C ( -195.7 mV) | u= 82.65% | Qcool= 196.4kW | Qit= 162.0kW | ALARMA MENOR
+t= 3990s | T= 23.29C | Vmed=2.761V | e= -1.21C ( -161.5 mV) | u= 81.97% | Qcool= 194.8kW | Qit= 164.7kW | ALARMA MENOR
+t= 4020s | T= 23.31C | Vmed=2.781V | e= -1.36C ( -181.0 mV) | u= 82.81% | Qcool= 196.8kW | Qit= 166.7kW | ALARMA MENOR
+t= 4050s | T= 23.27C | Vmed=2.771V | e= -1.28C ( -171.3 mV) | u= 82.83% | Qcool= 196.8kW | Qit= 165.4kW | ALARMA MENOR
+t= 4080s | T= 23.24C | Vmed=2.766V | e= -1.25C ( -166.4 mV) | u= 82.97% | Qcool= 197.1kW | Qit= 163.2kW | ALARMA MENOR
+t= 4110s | T= 23.16C | Vmed=2.761V | e= -1.21C ( -161.5 mV) | u= 83.10% | Qcool= 197.5kW | Qit= 157.4kW | ALARMA MENOR
+t= 4140s | T= 23.02C | Vmed=2.732V | e= -0.99C ( -132.2 mV) | u= 82.51% | Qcool= 196.0kW | Qit= 156.5kW | NORMALIDAD
+t= 4170s | T= 22.87C | Vmed=2.722V | e= -0.92C ( -122.4 mV) | u= 82.44% | Qcool= 195.9kW | Qit= 154.9kW | NORMALIDAD
+t= 4200s | T= 22.75C | Vmed=2.693V | e= -0.70C (  -93.1 mV) | u= 81.78% | Qcool= 194.3kW | Qit= 155.1kW | NORMALIDAD
+t= 4230s | T= 22.64C | Vmed=2.678V | e= -0.59C (  -78.4 mV) | u= 81.50% | Qcool= 193.7kW | Qit= 154.7kW | NORMALIDAD
+t= 4260s | T= 22.54C | Vmed=2.659V | e= -0.44C (  -58.8 mV) | u= 81.06% | Qcool= 192.6kW | Qit= 155.8kW | NORMALIDAD
+t= 4290s | T= 22.47C | Vmed=2.664V | e= -0.48C (  -63.7 mV) | u= 81.30% | Qcool= 193.2kW | Qit= 156.7kW | NORMALIDAD
+t= 4320s | T= 22.42C | Vmed=2.659V | e= -0.44C (  -58.8 mV) | u= 81.26% | Qcool= 193.1kW | Qit= 157.9kW | NORMALIDAD
+t= 4350s | T= 22.35C | Vmed=2.644V | e= -0.33C (  -44.2 mV) | u= 80.93% | Qcool= 192.3kW | Qit= 154.4kW | NORMALIDAD
+t= 4380s | T= 22.29C | Vmed=2.644V | e= -0.33C (  -44.2 mV) | u= 81.00% | Qcool= 192.5kW | Qit= 155.5kW | NORMALIDAD
+t= 4410s | T= 22.22C | Vmed=2.625V | e= -0.18C (  -24.6 mV) | u= 80.50% | Qcool= 191.3kW | Qit= 154.9kW | NORMALIDAD
+t= 4440s | T= 22.17C | Vmed=2.610V | e= -0.07C (  -10.0 mV) | u= 80.11% | Qcool= 190.3kW | Qit= 156.4kW | NORMALIDAD
+t= 4470s | T= 22.12C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 79.98% | Qcool= 190.0kW | Qit= 156.1kW | NORMALIDAD
+t= 4500s | T= 22.08C | Vmed=2.615V | e= -0.11C (  -14.9 mV) | u= 80.28% | Qcool= 190.7kW | Qit= 154.6kW | NORMALIDAD
+t= 4530s | T= 22.04C | Vmed=2.600V | e= -0.00C (   -0.2 mV) | u= 79.87% | Qcool= 189.8kW | Qit= 156.0kW | NORMALIDAD
+t= 4560s | T= 22.03C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 79.59% | Qcool= 189.1kW | Qit= 154.9kW | NORMALIDAD
+t= 4590s | T= 21.98C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 80.00% | Qcool= 190.1kW | Qit= 151.8kW | NORMALIDAD
+t= 4620s | T= 21.91C | Vmed=2.586V | e= +0.11C (  +14.5 mV) | u= 79.43% | Qcool= 188.7kW | Qit= 153.2kW | NORMALIDAD
+t= 4650s | T= 21.90C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 79.55% | Qcool= 189.0kW | Qit= 157.7kW | NORMALIDAD
+t= 4680s | T= 21.90C | Vmed=2.581V | e= +0.15C (  +19.4 mV) | u= 79.25% | Qcool= 188.3kW | Qit= 157.1kW | NORMALIDAD
+t= 4710s | T= 21.92C | Vmed=2.586V | e= +0.11C (  +14.5 mV) | u= 79.36% | Qcool= 188.6kW | Qit= 159.8kW | NORMALIDAD
+t= 4740s | T= 21.99C | Vmed=2.595V | e= +0.04C (   +4.7 mV) | u= 79.63% | Qcool= 189.2kW | Qit= 162.0kW | NORMALIDAD
+t= 4770s | T= 22.06C | Vmed=2.610V | e= -0.07C (  -10.0 mV) | u= 80.05% | Qcool= 190.2kW | Qit= 163.2kW | NORMALIDAD
+t= 4800s | T= 22.11C | Vmed=2.625V | e= -0.18C (  -24.6 mV) | u= 80.50% | Qcool= 191.3kW | Qit= 158.9kW | NORMALIDAD
+t= 4830s | T= 22.11C | Vmed=2.610V | e= -0.07C (  -10.0 mV) | u= 80.11% | Qcool= 190.3kW | Qit= 160.5kW | NORMALIDAD
+t= 4860s | T= 22.14C | Vmed=2.610V | e= -0.07C (  -10.0 mV) | u= 80.12% | Qcool= 190.4kW | Qit= 159.8kW | NORMALIDAD
+t= 4890s | T= 22.19C | Vmed=2.625V | e= -0.18C (  -24.6 mV) | u= 80.57% | Qcool= 191.4kW | Qit= 164.5kW | NORMALIDAD
+t= 4920s | T= 22.25C | Vmed=2.630V | e= -0.22C (  -29.5 mV) | u= 80.76% | Qcool= 191.9kW | Qit= 165.6kW | NORMALIDAD
+t= 4950s | T= 22.30C | Vmed=2.634V | e= -0.26C (  -34.4 mV) | u= 80.95% | Qcool= 192.3kW | Qit= 165.2kW | NORMALIDAD
+t= 4980s | T= 22.34C | Vmed=2.649V | e= -0.37C (  -49.1 mV) | u= 81.44% | Qcool= 193.5kW | Qit= 160.7kW | NORMALIDAD
+t= 5010s | T= 22.32C | Vmed=2.639V | e= -0.29C (  -39.3 mV) | u= 81.23% | Qcool= 193.0kW | Qit= 163.8kW | NORMALIDAD
+t= 5040s | T= 22.35C | Vmed=2.639V | e= -0.29C (  -39.3 mV) | u= 81.30% | Qcool= 193.2kW | Qit= 164.8kW | NORMALIDAD
+t= 5070s | T= 22.39C | Vmed=2.664V | e= -0.48C (  -63.7 mV) | u= 82.08% | Qcool= 195.0kW | Qit= 164.4kW | NORMALIDAD
+t= 5100s | T= 22.38C | Vmed=2.644V | e= -0.33C (  -44.2 mV) | u= 81.61% | Qcool= 193.9kW | Qit= 162.3kW | NORMALIDAD
+t= 5130s | T= 22.39C | Vmed=2.654V | e= -0.40C (  -54.0 mV) | u= 81.98% | Qcool= 194.8kW | Qit= 166.3kW | NORMALIDAD
+t= 5160s | T= 22.42C | Vmed=2.659V | e= -0.44C (  -58.8 mV) | u= 82.21% | Qcool= 195.3kW | Qit= 162.7kW | NORMALIDAD
+t= 5190s | T= 22.37C | Vmed=2.644V | e= -0.33C (  -44.2 mV) | u= 81.88% | Qcool= 194.5kW | Qit= 160.8kW | NORMALIDAD
+t= 5220s | T= 22.33C | Vmed=2.639V | e= -0.29C (  -39.3 mV) | u= 81.81% | Qcool= 194.4kW | Qit= 160.2kW | NORMALIDAD
+t= 5250s | T= 22.31C | Vmed=2.649V | e= -0.37C (  -49.1 mV) | u= 82.16% | Qcool= 195.2kW | Qit= 161.4kW | NORMALIDAD
+t= 5280s | T= 22.25C | Vmed=2.634V | e= -0.26C (  -34.4 mV) | u= 81.81% | Qcool= 194.4kW | Qit= 157.3kW | NORMALIDAD
+t= 5310s | T= 22.17C | Vmed=2.625V | e= -0.18C (  -24.6 mV) | u= 81.58% | Qcool= 193.8kW | Qit= 158.3kW | NORMALIDAD
+t= 5340s | T= 22.12C | Vmed=2.620V | e= -0.15C (  -19.7 mV) | u= 81.48% | Qcool= 193.6kW | Qit= 158.5kW | NORMALIDAD
+t= 5370s | T= 22.09C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 81.08% | Qcool= 192.6kW | Qit= 161.0kW | NORMALIDAD
+t= 5400s | T= 22.10C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 81.09% | Qcool= 192.7kW | Qit= 160.7kW | NORMALIDAD
+t= 5430s | T= 22.09C | Vmed=2.600V | e= -0.00C (   -0.2 mV) | u= 80.95% | Qcool= 192.3kW | Qit= 158.5kW | NORMALIDAD
+t= 5460s | T= 22.08C | Vmed=2.610V | e= -0.07C (  -10.0 mV) | u= 81.24% | Qcool= 193.0kW | Qit= 159.9kW | NORMALIDAD
+t= 5490s | T= 22.05C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 81.11% | Qcool= 192.7kW | Qit= 159.1kW | NORMALIDAD
+t= 5520s | T= 22.01C | Vmed=2.610V | e= -0.07C (  -10.0 mV) | u= 81.26% | Qcool= 193.1kW | Qit= 156.0kW | NORMALIDAD
+t= 5550s | T= 21.97C | Vmed=2.600V | e= -0.00C (   -0.2 mV) | u= 80.99% | Qcool= 192.4kW | Qit= 161.7kW | NORMALIDAD
+t= 5580s | T= 22.00C | Vmed=2.595V | e= +0.04C (   +4.7 mV) | u= 80.85% | Qcool= 192.1kW | Qit= 164.4kW | NORMALIDAD
+t= 5610s | T= 22.05C | Vmed=2.620V | e= -0.15C (  -19.7 mV) | u= 81.56% | Qcool= 193.8kW | Qit= 162.7kW | NORMALIDAD
+t= 5640s | T= 22.06C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 81.16% | Qcool= 192.8kW | Qit= 161.7kW | NORMALIDAD
+t= 5670s | T= 22.07C | Vmed=2.610V | e= -0.07C (  -10.0 mV) | u= 81.31% | Qcool= 193.2kW | Qit= 159.2kW | NORMALIDAD
+t= 5700s | T= 22.05C | Vmed=2.615V | e= -0.11C (  -14.9 mV) | u= 81.47% | Qcool= 193.6kW | Qit= 159.4kW | NORMALIDAD
+t= 5730s | T= 22.03C | Vmed=2.610V | e= -0.07C (  -10.0 mV) | u= 81.36% | Qcool= 193.3kW | Qit= 161.1kW | NORMALIDAD
+t= 5760s | T= 22.04C | Vmed=2.610V | e= -0.07C (  -10.0 mV) | u= 81.37% | Qcool= 193.3kW | Qit= 163.1kW | NORMALIDAD
+t= 5790s | T= 22.04C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 81.24% | Qcool= 193.0kW | Qit= 159.9kW | NORMALIDAD
+t= 5820s | T= 22.02C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 81.25% | Qcool= 193.1kW | Qit= 160.6kW | NORMALIDAD
+t= 5850s | T= 22.04C | Vmed=2.595V | e= +0.04C (   +4.7 mV) | u= 80.97% | Qcool= 192.4kW | Qit= 164.3kW | NORMALIDAD
+t= 5880s | T= 22.10C | Vmed=2.620V | e= -0.15C (  -19.7 mV) | u= 81.69% | Qcool= 194.1kW | Qit= 165.3kW | NORMALIDAD
+t= 5910s | T= 22.12C | Vmed=2.615V | e= -0.11C (  -14.9 mV) | u= 81.57% | Qcool= 193.8kW | Qit= 164.7kW | NORMALIDAD
+t= 5940s | T= 22.15C | Vmed=2.620V | e= -0.15C (  -19.7 mV) | u= 81.74% | Qcool= 194.2kW | Qit= 164.9kW | NORMALIDAD
+t= 5970s | T= 22.17C | Vmed=2.625V | e= -0.18C (  -24.6 mV) | u= 81.92% | Qcool= 194.6kW | Qit= 164.9kW | NORMALIDAD
+t= 6000s | T= 22.16C | Vmed=2.625V | e= -0.18C (  -24.6 mV) | u= 81.96% | Qcool= 194.7kW | Qit= 175.3kW | NORMALIDAD
+t= 6030s | T= 22.30C | Vmed=2.639V | e= -0.29C (  -39.3 mV) | u= 82.43% | Qcool= 195.9kW | Qit= 173.4kW | NORMALIDAD
+t= 6060s | T= 22.37C | Vmed=2.649V | e= -0.37C (  -49.1 mV) | u= 82.79% | Qcool= 196.7kW | Qit= 171.0kW | NORMALIDAD
+t= 6090s | T= 22.43C | Vmed=2.659V | e= -0.44C (  -58.8 mV) | u= 83.16% | Qcool= 197.6kW | Qit= 169.9kW | NORMALIDAD
+t= 6120s | T= 22.46C | Vmed=2.659V | e= -0.44C (  -58.8 mV) | u= 83.25% | Qcool= 197.8kW | Qit= 169.7kW | NORMALIDAD
+t= 6150s | T= 22.49C | Vmed=2.664V | e= -0.48C (  -63.7 mV) | u= 83.50% | Qcool= 198.4kW | Qit= 169.6kW | NORMALIDAD
+t= 6180s | T= 22.50C | Vmed=2.654V | e= -0.40C (  -54.0 mV) | u= 83.31% | Qcool= 198.0kW | Qit= 167.0kW | NORMALIDAD
+t= 6210s | T= 22.51C | Vmed=2.664V | e= -0.48C (  -63.7 mV) | u= 83.69% | Qcool= 198.9kW | Qit= 167.9kW | NORMALIDAD
+t= 6240s | T= 22.53C | Vmed=2.664V | e= -0.48C (  -63.7 mV) | u= 83.80% | Qcool= 199.1kW | Qit= 171.7kW | NORMALIDAD
+t= 6270s | T= 22.56C | Vmed=2.678V | e= -0.59C (  -78.4 mV) | u= 84.34% | Qcool= 200.4kW | Qit= 171.4kW | NORMALIDAD
+t= 6300s | T= 22.60C | Vmed=2.683V | e= -0.62C (  -83.3 mV) | u= 84.61% | Qcool= 201.0kW | Qit= 172.9kW | NORMALIDAD
+t= 6330s | T= 22.63C | Vmed=2.674V | e= -0.55C (  -73.5 mV) | u= 84.46% | Qcool= 200.7kW | Qit= 172.3kW | NORMALIDAD
+t= 6360s | T= 22.64C | Vmed=2.688V | e= -0.66C (  -88.2 mV) | u= 85.02% | Qcool= 202.0kW | Qit= 170.0kW | NORMALIDAD
+t= 6390s | T= 22.64C | Vmed=2.693V | e= -0.70C (  -93.1 mV) | u= 85.31% | Qcool= 202.7kW | Qit= 172.8kW | NORMALIDAD
+t= 6420s | T= 22.65C | Vmed=2.683V | e= -0.62C (  -83.3 mV) | u= 85.17% | Qcool= 202.4kW | Qit= 170.8kW | NORMALIDAD
+t= 6450s | T= 22.64C | Vmed=2.683V | e= -0.62C (  -83.3 mV) | u= 85.31% | Qcool= 202.7kW | Qit= 171.8kW | NORMALIDAD
+t= 6480s | T= 22.62C | Vmed=2.693V | e= -0.70C (  -93.1 mV) | u= 85.74% | Qcool= 203.7kW | Qit= 172.3kW | NORMALIDAD
+t= 6510s | T= 22.61C | Vmed=2.669V | e= -0.51C (  -68.6 mV) | u= 85.18% | Qcool= 202.4kW | Qit= 171.2kW | NORMALIDAD
+t= 6540s | T= 22.60C | Vmed=2.693V | e= -0.70C (  -93.1 mV) | u= 86.01% | Qcool= 204.4kW | Qit= 170.4kW | NORMALIDAD
+t= 6570s | T= 22.56C | Vmed=2.664V | e= -0.48C (  -63.7 mV) | u= 85.30% | Qcool= 202.7kW | Qit= 170.1kW | NORMALIDAD
+t= 6600s | T= 22.56C | Vmed=2.669V | e= -0.51C (  -68.6 mV) | u= 85.55% | Qcool= 203.3kW | Qit= 171.8kW | NORMALIDAD
+t= 6630s | T= 22.55C | Vmed=2.674V | e= -0.55C (  -73.5 mV) | u= 85.81% | Qcool= 203.9kW | Qit= 172.2kW | NORMALIDAD
+t= 6660s | T= 22.54C | Vmed=2.674V | e= -0.55C (  -73.5 mV) | u= 85.93% | Qcool= 204.2kW | Qit= 172.1kW | NORMALIDAD
+t= 6690s | T= 22.52C | Vmed=2.664V | e= -0.48C (  -63.7 mV) | u= 85.77% | Qcool= 203.8kW | Qit= 170.1kW | NORMALIDAD
+t= 6720s | T= 22.50C | Vmed=2.669V | e= -0.51C (  -68.6 mV) | u= 86.02% | Qcool= 204.4kW | Qit= 170.7kW | NORMALIDAD
+t= 6750s | T= 22.47C | Vmed=2.664V | e= -0.48C (  -63.7 mV) | u= 85.99% | Qcool= 204.3kW | Qit= 170.8kW | NORMALIDAD
+t= 6780s | T= 22.46C | Vmed=2.654V | e= -0.40C (  -54.0 mV) | u= 85.81% | Qcool= 203.9kW | Qit= 171.1kW | NORMALIDAD
+t= 6810s | T= 22.44C | Vmed=2.664V | e= -0.48C (  -63.7 mV) | u= 86.18% | Qcool= 204.8kW | Qit= 172.0kW | NORMALIDAD
+t= 6840s | T= 22.42C | Vmed=2.654V | e= -0.40C (  -54.0 mV) | u= 86.00% | Qcool= 204.3kW | Qit= 172.3kW | NORMALIDAD
+t= 6870s | T= 22.40C | Vmed=2.654V | e= -0.40C (  -54.0 mV) | u= 86.09% | Qcool= 204.6kW | Qit= 171.8kW | NORMALIDAD
+t= 6900s | T= 22.39C | Vmed=2.649V | e= -0.37C (  -49.1 mV) | u= 86.04% | Qcool= 204.4kW | Qit= 172.2kW | NORMALIDAD
+t= 6930s | T= 22.38C | Vmed=2.649V | e= -0.37C (  -49.1 mV) | u= 86.12% | Qcool= 204.6kW | Qit= 171.8kW | NORMALIDAD
+t= 6960s | T= 22.35C | Vmed=2.644V | e= -0.33C (  -44.2 mV) | u= 86.06% | Qcool= 204.5kW | Qit= 170.5kW | NORMALIDAD
+t= 6990s | T= 22.29C | Vmed=2.634V | e= -0.26C (  -34.4 mV) | u= 85.84% | Qcool= 204.0kW | Qit= 166.9kW | NORMALIDAD
+t= 7020s | T= 22.21C | Vmed=2.625V | e= -0.18C (  -24.6 mV) | u= 85.61% | Qcool= 203.4kW | Qit= 164.9kW | NORMALIDAD
+t= 7050s | T= 22.13C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 85.08% | Qcool= 202.1kW | Qit= 164.8kW | NORMALIDAD
+t= 7080s | T= 22.08C | Vmed=2.615V | e= -0.11C (  -14.9 mV) | u= 85.37% | Qcool= 202.9kW | Qit= 165.7kW | NORMALIDAD
+t= 7110s | T= 22.02C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 84.68% | Qcool= 201.2kW | Qit= 166.2kW | NORMALIDAD
+t= 7140s | T= 21.97C | Vmed=2.600V | e= -0.00C (   -0.2 mV) | u= 84.95% | Qcool= 201.8kW | Qit= 163.8kW | NORMALIDAD
+t= 7170s | T= 21.90C | Vmed=2.581V | e= +0.15C (  +19.4 mV) | u= 84.38% | Qcool= 200.5kW | Qit= 163.6kW | NORMALIDAD
+t= 7200s | T= 21.86C | Vmed=2.586V | e= +0.11C (  +14.5 mV) | u= 84.49% | Qcool= 200.7kW | Qit= 167.3kW | NORMALIDAD
+t= 7230s | T= 21.86C | Vmed=2.581V | e= +0.15C (  +19.4 mV) | u= 84.32% | Qcool= 200.3kW | Qit= 167.2kW | NORMALIDAD
+t= 7260s | T= 21.86C | Vmed=2.586V | e= +0.11C (  +14.5 mV) | u= 84.43% | Qcool= 200.6kW | Qit= 169.7kW | NORMALIDAD
+t= 7290s | T= 21.88C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 84.55% | Qcool= 200.9kW | Qit= 169.1kW | NORMALIDAD
+t= 7320s | T= 21.89C | Vmed=2.586V | e= +0.11C (  +14.5 mV) | u= 84.39% | Qcool= 200.5kW | Qit= 170.3kW | NORMALIDAD
+t= 7350s | T= 21.91C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 84.51% | Qcool= 200.8kW | Qit= 170.1kW | NORMALIDAD
+t= 7380s | T= 21.92C | Vmed=2.581V | e= +0.15C (  +19.4 mV) | u= 84.21% | Qcool= 200.1kW | Qit= 169.5kW | NORMALIDAD
+t= 7410s | T= 21.96C | Vmed=2.586V | e= +0.11C (  +14.5 mV) | u= 84.32% | Qcool= 200.3kW | Qit= 172.0kW | NORMALIDAD
+t= 7440s | T= 22.04C | Vmed=2.600V | e= -0.00C (   -0.2 mV) | u= 84.73% | Qcool= 201.3kW | Qit= 175.0kW | NORMALIDAD
+t= 7470s | T= 22.11C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 84.87% | Qcool= 201.7kW | Qit= 175.0kW | NORMALIDAD
+t= 7500s | T= 22.18C | Vmed=2.620V | e= -0.15C (  -19.7 mV) | u= 85.31% | Qcool= 202.7kW | Qit= 173.5kW | NORMALIDAD
+t= 7530s | T= 22.21C | Vmed=2.610V | e= -0.07C (  -10.0 mV) | u= 85.06% | Qcool= 202.1kW | Qit= 176.8kW | NORMALIDAD
+t= 7560s | T= 22.27C | Vmed=2.654V | e= -0.40C (  -54.0 mV) | u= 86.37% | Qcool= 205.2kW | Qit= 173.4kW | NORMALIDAD
+t= 7590s | T= 22.27C | Vmed=2.630V | e= -0.22C (  -29.5 mV) | u= 85.74% | Qcool= 203.7kW | Qit= 176.7kW | NORMALIDAD
+t= 7620s | T= 22.33C | Vmed=2.654V | e= -0.40C (  -54.0 mV) | u= 86.51% | Qcool= 205.5kW | Qit= 177.7kW | NORMALIDAD
+t= 7650s | T= 22.34C | Vmed=2.654V | e= -0.40C (  -54.0 mV) | u= 86.60% | Qcool= 205.8kW | Qit= 176.0kW | NORMALIDAD
+t= 7680s | T= 22.36C | Vmed=2.639V | e= -0.29C (  -39.3 mV) | u= 86.26% | Qcool= 204.9kW | Qit= 176.9kW | NORMALIDAD
+t= 7710s | T= 22.44C | Vmed=2.659V | e= -0.44C (  -58.8 mV) | u= 86.90% | Qcool= 206.5kW | Qit= 181.3kW | NORMALIDAD
+t= 7740s | T= 22.54C | Vmed=2.674V | e= -0.55C (  -73.5 mV) | u= 87.43% | Qcool= 207.7kW | Qit= 183.2kW | NORMALIDAD
+t= 7770s | T= 22.60C | Vmed=2.678V | e= -0.59C (  -78.4 mV) | u= 87.69% | Qcool= 208.4kW | Qit= 181.9kW | NORMALIDAD
+t= 7800s | T= 22.65C | Vmed=2.688V | e= -0.66C (  -88.2 mV) | u= 88.11% | Qcool= 209.4kW | Qit= 180.9kW | NORMALIDAD
+t= 7830s | T= 22.68C | Vmed=2.683V | e= -0.62C (  -83.3 mV) | u= 88.11% | Qcool= 209.4kW | Qit= 179.2kW | NORMALIDAD
+t= 7860s | T= 22.74C | Vmed=2.703V | e= -0.77C ( -102.8 mV) | u= 88.83% | Qcool= 211.1kW | Qit= 186.1kW | NORMALIDAD
+t= 7890s | T= 22.79C | Vmed=2.708V | e= -0.81C ( -107.7 mV) | u= 89.14% | Qcool= 211.8kW | Qit= 185.4kW | NORMALIDAD
+t= 7920s | T= 22.83C | Vmed=2.713V | e= -0.84C ( -112.6 mV) | u= 89.47% | Qcool= 212.6kW | Qit= 183.7kW | NORMALIDAD
+t= 7950s | T= 22.85C | Vmed=2.717V | e= -0.88C ( -117.5 mV) | u= 89.80% | Qcool= 213.4kW | Qit= 183.5kW | NORMALIDAD
+t= 7980s | T= 22.88C | Vmed=2.722V | e= -0.92C ( -122.4 mV) | u= 90.14% | Qcool= 214.2kW | Qit= 184.9kW | NORMALIDAD
+t= 8010s | T= 22.90C | Vmed=2.713V | e= -0.84C ( -112.6 mV) | u= 90.06% | Qcool= 214.0kW | Qit= 185.9kW | NORMALIDAD
+t= 8040s | T= 22.90C | Vmed=2.732V | e= -0.99C ( -132.2 mV) | u= 90.82% | Qcool= 215.8kW | Qit= 180.6kW | NORMALIDAD
+t= 8070s | T= 22.82C | Vmed=2.693V | e= -0.70C (  -93.1 mV) | u= 89.89% | Qcool= 213.6kW | Qit= 178.7kW | NORMALIDAD
+t= 8100s | T= 22.78C | Vmed=2.717V | e= -0.88C ( -117.5 mV) | u= 90.76% | Qcool= 215.7kW | Qit= 179.6kW | NORMALIDAD
+t= 8130s | T= 22.73C | Vmed=2.698V | e= -0.73C (  -97.9 mV) | u= 90.38% | Qcool= 214.7kW | Qit= 181.6kW | NORMALIDAD
+t= 8160s | T= 22.67C | Vmed=2.693V | e= -0.70C (  -93.1 mV) | u= 90.40% | Qcool= 214.8kW | Qit= 179.3kW | NORMALIDAD
+t= 8190s | T= 22.59C | Vmed=2.669V | e= -0.51C (  -68.6 mV) | u= 89.84% | Qcool= 213.5kW | Qit= 178.6kW | NORMALIDAD
+t= 8220s | T= 22.52C | Vmed=2.678V | e= -0.59C (  -78.4 mV) | u= 90.24% | Qcool= 214.4kW | Qit= 176.7kW | NORMALIDAD
+t= 8250s | T= 22.41C | Vmed=2.669V | e= -0.51C (  -68.6 mV) | u= 90.08% | Qcool= 214.0kW | Qit= 172.2kW | NORMALIDAD
+t= 8280s | T= 22.28C | Vmed=2.625V | e= -0.18C (  -24.6 mV) | u= 88.90% | Qcool= 211.2kW | Qit= 171.5kW | NORMALIDAD
+t= 8310s | T= 22.18C | Vmed=2.620V | e= -0.15C (  -19.7 mV) | u= 88.80% | Qcool= 211.0kW | Qit= 173.3kW | NORMALIDAD
+t= 8340s | T= 22.08C | Vmed=2.610V | e= -0.07C (  -10.0 mV) | u= 88.54% | Qcool= 210.4kW | Qit= 171.5kW | NORMALIDAD
+t= 8370s | T= 21.99C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 87.98% | Qcool= 209.1kW | Qit= 171.3kW | NORMALIDAD
+t= 8400s | T= 21.93C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 87.97% | Qcool= 209.0kW | Qit= 173.1kW | NORMALIDAD
+t= 8430s | T= 21.85C | Vmed=2.581V | e= +0.15C (  +19.4 mV) | u= 87.66% | Qcool= 208.3kW | Qit= 167.5kW | NORMALIDAD
+t= 8460s | T= 21.76C | Vmed=2.576V | e= +0.18C (  +24.2 mV) | u= 87.49% | Qcool= 207.9kW | Qit= 169.8kW | NORMALIDAD
+t= 8490s | T= 21.70C | Vmed=2.566V | e= +0.26C (  +34.0 mV) | u= 87.16% | Qcool= 207.1kW | Qit= 170.5kW | NORMALIDAD
+t= 8520s | T= 21.65C | Vmed=2.551V | e= +0.37C (  +48.7 mV) | u= 86.67% | Qcool= 205.9kW | Qit= 167.1kW | NORMALIDAD
+t= 8550s | T= 21.60C | Vmed=2.551V | e= +0.37C (  +48.7 mV) | u= 86.59% | Qcool= 205.7kW | Qit= 170.0kW | NORMALIDAD
+t= 8580s | T= 21.56C | Vmed=2.546V | e= +0.40C (  +53.6 mV) | u= 86.37% | Qcool= 205.2kW | Qit= 167.5kW | NORMALIDAD
+t= 8610s | T= 21.49C | Vmed=2.537V | e= +0.48C (  +63.3 mV) | u= 85.99% | Qcool= 204.3kW | Qit= 168.3kW | NORMALIDAD
+t= 8640s | T= 21.45C | Vmed=2.527V | e= +0.55C (  +73.1 mV) | u= 85.60% | Qcool= 203.4kW | Qit= 167.6kW | NORMALIDAD
+t= 8670s | T= 21.41C | Vmed=2.527V | e= +0.55C (  +73.1 mV) | u= 85.47% | Qcool= 203.1kW | Qit= 168.1kW | NORMALIDAD
+t= 8700s | T= 21.39C | Vmed=2.522V | e= +0.59C (  +78.0 mV) | u= 85.21% | Qcool= 202.5kW | Qit= 168.8kW | NORMALIDAD
+t= 8730s | T= 21.39C | Vmed=2.517V | e= +0.62C (  +82.9 mV) | u= 84.93% | Qcool= 201.8kW | Qit= 169.4kW | NORMALIDAD
+t= 8760s | T= 21.37C | Vmed=2.517V | e= +0.62C (  +82.9 mV) | u= 84.80% | Qcool= 201.5kW | Qit= 167.9kW | NORMALIDAD
+t= 8790s | T= 21.36C | Vmed=2.522V | e= +0.59C (  +78.0 mV) | u= 84.80% | Qcool= 201.5kW | Qit= 166.8kW | NORMALIDAD
+t= 8820s | T= 21.35C | Vmed=2.522V | e= +0.59C (  +78.0 mV) | u= 84.67% | Qcool= 201.2kW | Qit= 166.3kW | NORMALIDAD
+t= 8850s | T= 21.31C | Vmed=2.502V | e= +0.73C (  +97.6 mV) | u= 83.97% | Qcool= 199.5kW | Qit= 166.7kW | NORMALIDAD
+t= 8880s | T= 21.32C | Vmed=2.507V | e= +0.70C (  +92.7 mV) | u= 83.95% | Qcool= 199.5kW | Qit= 167.1kW | NORMALIDAD
+t= 8910s | T= 21.35C | Vmed=2.522V | e= +0.59C (  +78.0 mV) | u= 84.22% | Qcool= 200.1kW | Qit= 172.0kW | NORMALIDAD
+t= 8940s | T= 21.42C | Vmed=2.537V | e= +0.48C (  +63.3 mV) | u= 84.53% | Qcool= 200.8kW | Qit= 173.4kW | NORMALIDAD
+t= 8970s | T= 21.49C | Vmed=2.527V | e= +0.55C (  +73.1 mV) | u= 84.13% | Qcool= 199.9kW | Qit= 173.4kW | NORMALIDAD
+t= 9000s | T= 21.61C | Vmed=2.532V | e= +0.51C (  +68.2 mV) | u= 84.15% | Qcool= 200.0kW | Qit= 204.3kW | NORMALIDAD
+t= 9030s | T= 22.06C | Vmed=2.600V | e= -0.00C (   -0.2 mV) | u= 86.06% | Qcool= 204.5kW | Qit= 204.1kW | NORMALIDAD
+t= 9060s | T= 22.43C | Vmed=2.649V | e= -0.37C (  -49.1 mV) | u= 87.50% | Qcool= 207.9kW | Qit= 201.9kW | NORMALIDAD
+t= 9090s | T= 22.75C | Vmed=2.698V | e= -0.73C (  -97.9 mV) | u= 89.02% | Qcool= 211.5kW | Qit= 178.1kW | NORMALIDAD
+t= 9120s | T= 22.74C | Vmed=2.698V | e= -0.73C (  -97.9 mV) | u= 89.18% | Qcool= 211.9kW | Qit= 181.3kW | NORMALIDAD
+t= 9150s | T= 22.72C | Vmed=2.703V | e= -0.77C ( -102.8 mV) | u= 89.49% | Qcool= 212.6kW | Qit= 178.6kW | NORMALIDAD
+t= 9180s | T= 22.67C | Vmed=2.688V | e= -0.66C (  -88.2 mV) | u= 89.23% | Qcool= 212.0kW | Qit= 177.5kW | NORMALIDAD
+t= 9210s | T= 22.62C | Vmed=2.688V | e= -0.66C (  -88.2 mV) | u= 89.37% | Qcool= 212.4kW | Qit= 178.9kW | NORMALIDAD
+t= 9240s | T= 22.60C | Vmed=2.683V | e= -0.62C (  -83.3 mV) | u= 89.38% | Qcool= 212.4kW | Qit= 179.4kW | NORMALIDAD
+t= 9270s | T= 22.58C | Vmed=2.678V | e= -0.59C (  -78.4 mV) | u= 89.37% | Qcool= 212.3kW | Qit= 183.1kW | NORMALIDAD
+t= 9300s | T= 22.61C | Vmed=2.693V | e= -0.70C (  -93.1 mV) | u= 89.93% | Qcool= 213.7kW | Qit= 182.3kW | NORMALIDAD
+t= 9330s | T= 22.60C | Vmed=2.688V | e= -0.66C (  -88.2 mV) | u= 89.94% | Qcool= 213.7kW | Qit= 181.6kW | NORMALIDAD
+t= 9360s | T= 22.61C | Vmed=2.688V | e= -0.66C (  -88.2 mV) | u= 90.09% | Qcool= 214.1kW | Qit= 185.1kW | NORMALIDAD
+t= 9390s | T= 22.62C | Vmed=2.678V | e= -0.59C (  -78.4 mV) | u= 89.95% | Qcool= 213.7kW | Qit= 184.0kW | NORMALIDAD
+t= 9420s | T= 22.63C | Vmed=2.688V | e= -0.66C (  -88.2 mV) | u= 90.37% | Qcool= 214.7kW | Qit= 181.9kW | NORMALIDAD
+t= 9450s | T= 22.60C | Vmed=2.678V | e= -0.59C (  -78.4 mV) | u= 90.23% | Qcool= 214.4kW | Qit= 182.3kW | NORMALIDAD
+t= 9480s | T= 22.58C | Vmed=2.688V | e= -0.66C (  -88.2 mV) | u= 90.65% | Qcool= 215.4kW | Qit= 182.8kW | NORMALIDAD
+t= 9510s | T= 22.55C | Vmed=2.683V | e= -0.62C (  -83.3 mV) | u= 90.65% | Qcool= 215.4kW | Qit= 181.0kW | NORMALIDAD
+t= 9540s | T= 22.50C | Vmed=2.664V | e= -0.48C (  -63.7 mV) | u= 90.21% | Qcool= 214.3kW | Qit= 181.7kW | NORMALIDAD
+t= 9570s | T= 22.47C | Vmed=2.669V | e= -0.51C (  -68.6 mV) | u= 90.46% | Qcool= 214.9kW | Qit= 180.1kW | NORMALIDAD
+t= 9600s | T= 22.43C | Vmed=2.659V | e= -0.44C (  -58.8 mV) | u= 90.29% | Qcool= 214.5kW | Qit= 181.3kW | NORMALIDAD
+t= 9630s | T= 22.40C | Vmed=2.649V | e= -0.37C (  -49.1 mV) | u= 90.10% | Qcool= 214.1kW | Qit= 179.7kW | NORMALIDAD
+t= 9660s | T= 22.34C | Vmed=2.644V | e= -0.33C (  -44.2 mV) | u= 90.04% | Qcool= 213.9kW | Qit= 175.5kW | NORMALIDAD
+t= 9690s | T= 22.24C | Vmed=2.639V | e= -0.29C (  -39.3 mV) | u= 89.97% | Qcool= 213.8kW | Qit= 174.9kW | NORMALIDAD
+t= 9720s | T= 22.18C | Vmed=2.630V | e= -0.22C (  -29.5 mV) | u= 89.75% | Qcool= 213.2kW | Qit= 178.1kW | NORMALIDAD
+t= 9750s | T= 22.13C | Vmed=2.610V | e= -0.07C (  -10.0 mV) | u= 89.22% | Qcool= 212.0kW | Qit= 177.7kW | NORMALIDAD
+t= 9780s | T= 22.09C | Vmed=2.620V | e= -0.15C (  -19.7 mV) | u= 89.52% | Qcool= 212.7kW | Qit= 175.0kW | NORMALIDAD
+t= 9810s | T= 22.02C | Vmed=2.595V | e= +0.04C (   +4.7 mV) | u= 88.84% | Qcool= 211.1kW | Qit= 177.4kW | NORMALIDAD
+t= 9840s | T= 21.97C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 88.68% | Qcool= 210.7kW | Qit= 173.9kW | NORMALIDAD
+t= 9870s | T= 21.93C | Vmed=2.576V | e= +0.18C (  +24.2 mV) | u= 88.24% | Qcool= 209.7kW | Qit= 176.5kW | NORMALIDAD
+t= 9900s | T= 21.91C | Vmed=2.576V | e= +0.18C (  +24.2 mV) | u= 88.20% | Qcool= 209.6kW | Qit= 175.8kW | NORMALIDAD
+t= 9930s | T= 21.89C | Vmed=2.581V | e= +0.15C (  +19.4 mV) | u= 88.30% | Qcool= 209.8kW | Qit= 177.6kW | NORMALIDAD
+t= 9960s | T= 21.88C | Vmed=2.581V | e= +0.15C (  +19.4 mV) | u= 88.27% | Qcool= 209.7kW | Qit= 175.7kW | NORMALIDAD
+t= 9990s | T= 21.86C | Vmed=2.586V | e= +0.11C (  +14.5 mV) | u= 88.38% | Qcool= 210.0kW | Qit= 175.5kW | NORMALIDAD
+t=10020s | T= 21.83C | Vmed=2.595V | e= +0.04C (   +4.7 mV) | u= 88.64% | Qcool= 210.6kW | Qit= 173.8kW | NORMALIDAD
+t=10050s | T= 21.79C | Vmed=2.576V | e= +0.18C (  +24.2 mV) | u= 88.06% | Qcool= 209.2kW | Qit= 175.7kW | NORMALIDAD
+t=10080s | T= 21.79C | Vmed=2.561V | e= +0.29C (  +38.9 mV) | u= 87.59% | Qcool= 208.1kW | Qit= 175.7kW | NORMALIDAD
+t=10110s | T= 21.80C | Vmed=2.571V | e= +0.22C (  +29.1 mV) | u= 87.81% | Qcool= 208.6kW | Qit= 175.5kW | NORMALIDAD
+t=10140s | T= 21.78C | Vmed=2.595V | e= +0.04C (   +4.7 mV) | u= 88.48% | Qcool= 210.2kW | Qit= 175.0kW | NORMALIDAD
+t=10170s | T= 21.78C | Vmed=2.576V | e= +0.18C (  +24.2 mV) | u= 87.90% | Qcool= 208.8kW | Qit= 179.1kW | NORMALIDAD
+t=10200s | T= 21.80C | Vmed=2.581V | e= +0.15C (  +19.4 mV) | u= 88.00% | Qcool= 209.1kW | Qit= 180.5kW | NORMALIDAD
+t=10230s | T= 21.82C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 88.26% | Qcool= 209.7kW | Qit= 177.1kW | NORMALIDAD
+t=10260s | T= 21.82C | Vmed=2.581V | e= +0.15C (  +19.4 mV) | u= 87.95% | Qcool= 209.0kW | Qit= 176.9kW | NORMALIDAD
+t=10290s | T= 21.82C | Vmed=2.566V | e= +0.26C (  +34.0 mV) | u= 87.49% | Qcool= 207.9kW | Qit= 176.9kW | NORMALIDAD
+t=10320s | T= 21.85C | Vmed=2.586V | e= +0.11C (  +14.5 mV) | u= 88.01% | Qcool= 209.1kW | Qit= 177.6kW | NORMALIDAD
+t=10350s | T= 21.85C | Vmed=2.581V | e= +0.15C (  +19.4 mV) | u= 87.84% | Qcool= 208.7kW | Qit= 176.2kW | NORMALIDAD
+t=10380s | T= 21.86C | Vmed=2.571V | e= +0.22C (  +29.1 mV) | u= 87.52% | Qcool= 207.9kW | Qit= 177.3kW | NORMALIDAD
+t=10410s | T= 21.88C | Vmed=2.586V | e= +0.11C (  +14.5 mV) | u= 87.90% | Qcool= 208.9kW | Qit= 178.3kW | NORMALIDAD
+t=10440s | T= 21.91C | Vmed=2.586V | e= +0.11C (  +14.5 mV) | u= 87.88% | Qcool= 208.8kW | Qit= 177.9kW | NORMALIDAD
+t=10470s | T= 21.93C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 88.00% | Qcool= 209.1kW | Qit= 179.5kW | NORMALIDAD
+t=10500s | T= 21.93C | Vmed=2.595V | e= +0.04C (   +4.7 mV) | u= 88.13% | Qcool= 209.4kW | Qit= 174.4kW | NORMALIDAD
+t=10530s | T= 21.90C | Vmed=2.586V | e= +0.11C (  +14.5 mV) | u= 87.83% | Qcool= 208.7kW | Qit= 175.5kW | NORMALIDAD
+t=10560s | T= 21.91C | Vmed=2.586V | e= +0.11C (  +14.5 mV) | u= 87.81% | Qcool= 208.6kW | Qit= 177.9kW | NORMALIDAD
+t=10590s | T= 21.94C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 87.93% | Qcool= 208.9kW | Qit= 176.3kW | NORMALIDAD
+t=10620s | T= 21.93C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 87.91% | Qcool= 208.9kW | Qit= 176.3kW | NORMALIDAD
+t=10650s | T= 21.95C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 87.90% | Qcool= 208.8kW | Qit= 178.9kW | NORMALIDAD
+t=10680s | T= 21.96C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 87.88% | Qcool= 208.8kW | Qit= 175.9kW | NORMALIDAD
+t=10710s | T= 21.94C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 87.86% | Qcool= 208.8kW | Qit= 174.7kW | NORMALIDAD
+t=10740s | T= 21.91C | Vmed=2.581V | e= +0.15C (  +19.4 mV) | u= 87.56% | Qcool= 208.0kW | Qit= 175.2kW | NORMALIDAD
+t=10770s | T= 21.88C | Vmed=2.566V | e= +0.26C (  +34.0 mV) | u= 87.10% | Qcool= 206.9kW | Qit= 172.0kW | NORMALIDAD
+t=10800s | T= 21.85C | Vmed=2.576V | e= +0.18C (  +24.2 mV) | u= 87.33% | Qcool= 207.5kW | Qit= 170.4kW | NORMALIDAD
+t=10830s | T= 21.80C | Vmed=2.571V | e= +0.22C (  +29.1 mV) | u= 87.14% | Qcool= 207.1kW | Qit= 173.1kW | NORMALIDAD
+t=10860s | T= 21.76C | Vmed=2.571V | e= +0.22C (  +29.1 mV) | u= 87.09% | Qcool= 206.9kW | Qit= 171.2kW | NORMALIDAD
+t=10890s | T= 21.76C | Vmed=2.561V | e= +0.29C (  +38.9 mV) | u= 86.76% | Qcool= 206.1kW | Qit= 178.5kW | NORMALIDAD
+t=10920s | T= 21.81C | Vmed=2.576V | e= +0.18C (  +24.2 mV) | u= 87.12% | Qcool= 207.0kW | Qit= 177.5kW | NORMALIDAD
+t=10950s | T= 21.85C | Vmed=2.576V | e= +0.18C (  +24.2 mV) | u= 87.08% | Qcool= 206.9kW | Qit= 176.9kW | NORMALIDAD
+t=10980s | T= 21.89C | Vmed=2.586V | e= +0.11C (  +14.5 mV) | u= 87.33% | Qcool= 207.5kW | Qit= 177.5kW | NORMALIDAD
+t=11010s | T= 21.89C | Vmed=2.586V | e= +0.11C (  +14.5 mV) | u= 87.31% | Qcool= 207.4kW | Qit= 173.0kW | NORMALIDAD
+t=11040s | T= 21.87C | Vmed=2.586V | e= +0.11C (  +14.5 mV) | u= 87.28% | Qcool= 207.4kW | Qit= 176.0kW | NORMALIDAD
+t=11070s | T= 21.88C | Vmed=2.586V | e= +0.11C (  +14.5 mV) | u= 87.26% | Qcool= 207.3kW | Qit= 174.7kW | NORMALIDAD
+t=11100s | T= 21.87C | Vmed=2.576V | e= +0.18C (  +24.2 mV) | u= 86.95% | Qcool= 206.6kW | Qit= 175.1kW | NORMALIDAD
+t=11130s | T= 21.87C | Vmed=2.581V | e= +0.15C (  +19.4 mV) | u= 87.05% | Qcool= 206.8kW | Qit= 174.4kW | NORMALIDAD
+t=11160s | T= 21.84C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 87.31% | Qcool= 207.4kW | Qit= 174.4kW | NORMALIDAD
+t=11190s | T= 21.85C | Vmed=2.595V | e= +0.04C (   +4.7 mV) | u= 87.43% | Qcool= 207.7kW | Qit= 175.8kW | NORMALIDAD
+t=11220s | T= 21.84C | Vmed=2.581V | e= +0.15C (  +19.4 mV) | u= 86.99% | Qcool= 206.7kW | Qit= 173.7kW | NORMALIDAD
+t=11250s | T= 21.80C | Vmed=2.576V | e= +0.18C (  +24.2 mV) | u= 86.82% | Qcool= 206.3kW | Qit= 169.5kW | NORMALIDAD
+t=11280s | T= 21.74C | Vmed=2.566V | e= +0.26C (  +34.0 mV) | u= 86.49% | Qcool= 205.5kW | Qit= 170.6kW | NORMALIDAD
+t=11310s | T= 21.71C | Vmed=2.566V | e= +0.26C (  +34.0 mV) | u= 86.43% | Qcool= 205.4kW | Qit= 168.0kW | NORMALIDAD
+t=11340s | T= 21.64C | Vmed=2.556V | e= +0.33C (  +43.8 mV) | u= 86.09% | Qcool= 204.5kW | Qit= 164.8kW | NORMALIDAD
+t=11370s | T= 21.58C | Vmed=2.537V | e= +0.48C (  +63.3 mV) | u= 85.44% | Qcool= 203.0kW | Qit= 169.9kW | NORMALIDAD
+t=11400s | T= 21.59C | Vmed=2.542V | e= +0.44C (  +58.5 mV) | u= 85.48% | Qcool= 135.4kW | Qit= 167.9kW | NORMALIDAD
+t=11430s | T= 22.38C | Vmed=2.654V | e= -0.40C (  -54.0 mV) | u= 88.69% | Qcool= 140.5kW | Qit= 165.9kW | NORMALIDAD
+t=11460s | T= 23.09C | Vmed=2.752V | e= -1.14C ( -151.7 mV) | u= 91.66% | Qcool= 145.2kW | Qit= 168.9kW | ALARMA MENOR
+t=11490s | T= 23.75C | Vmed=2.825V | e= -1.69C ( -225.0 mV) | u= 94.07% | Qcool= 149.0kW | Qit= 169.0kW | ALARMA MENOR
+t=11520s | T= 24.34C | Vmed=2.898V | e= -2.24C ( -298.3 mV) | u= 96.60% | Qcool= 153.0kW | Qit= 168.2kW | ALARMA MENOR
+t=11550s | T= 24.86C | Vmed=2.986V | e= -2.90C ( -386.3 mV) | u= 99.69% | Qcool= 157.9kW | Qit= 167.5kW | ALARMA MAYOR
+t=11580s | T= 25.31C | Vmed=3.025V | e= -3.19C ( -425.4 mV) | u=100.00% | Qcool= 158.4kW | Qit= 172.5kW | ALARMA MAYOR
+t=11610s | T= 25.81C | Vmed=3.109V | e= -3.81C ( -508.5 mV) | u=100.00% | Qcool= 158.4kW | Qit= 174.2kW | ALARMA MAYOR
+t=11640s | T= 26.30C | Vmed=3.177V | e= -4.33C ( -576.9 mV) | u=100.00% | Qcool= 158.4kW | Qit= 174.1kW | ALARMA MAYOR
+t=11670s | T= 26.80C | Vmed=3.240V | e= -4.80C ( -640.5 mV) | u=100.00% | Qcool= 158.4kW | Qit= 175.7kW | ALARMA MAYOR
+t=11700s | T= 27.30C | Vmed=3.309V | e= -5.32C ( -708.9 mV) | u=100.00% | Qcool= 237.6kW | Qit= 177.3kW | ALARMA MAYOR
+t=11730s | T= 26.80C | Vmed=3.240V | e= -4.80C ( -640.5 mV) | u=100.00% | Qcool= 237.6kW | Qit= 175.5kW | ALARMA MAYOR
+t=11760s | T= 26.32C | Vmed=3.172V | e= -4.29C ( -572.0 mV) | u=100.00% | Qcool= 237.6kW | Qit= 176.8kW | ALARMA MAYOR
+t=11790s | T= 25.82C | Vmed=3.104V | e= -3.78C ( -503.6 mV) | u=100.00% | Qcool= 237.6kW | Qit= 171.6kW | ALARMA MAYOR
+t=11820s | T= 25.32C | Vmed=3.040V | e= -3.30C ( -440.1 mV) | u=100.00% | Qcool= 237.6kW | Qit= 174.9kW | ALARMA MAYOR
+t=11850s | T= 24.88C | Vmed=2.986V | e= -2.90C ( -386.3 mV) | u= 99.69% | Qcool= 236.9kW | Qit= 176.7kW | ALARMA MAYOR
+t=11880s | T= 24.43C | Vmed=2.933V | e= -2.49C ( -332.6 mV) | u= 98.75% | Qcool= 234.6kW | Qit= 174.5kW | ALARMA MENOR
+t=11910s | T= 24.02C | Vmed=2.864V | e= -1.98C ( -264.1 mV) | u= 97.29% | Qcool= 231.2kW | Qit= 175.1kW | ALARMA MENOR
+t=11940s | T= 23.67C | Vmed=2.820V | e= -1.65C ( -220.1 mV) | u= 96.44% | Qcool= 229.1kW | Qit= 174.6kW | ALARMA MENOR
+t=11970s | T= 23.35C | Vmed=2.776V | e= -1.32C ( -176.1 mV) | u= 95.51% | Qcool= 226.9kW | Qit= 174.5kW | ALARMA MENOR
+t=12000s | T= 23.07C | Vmed=2.742V | e= -1.06C ( -141.9 mV) | u= 94.80% | Qcool= 225.2kW | Qit= 177.6kW | ALARMA MENOR
+t=12030s | T= 22.84C | Vmed=2.717V | e= -0.88C ( -117.5 mV) | u= 94.31% | Qcool= 224.1kW | Qit= 174.7kW | NORMALIDAD
+t=12060s | T= 22.60C | Vmed=2.674V | e= -0.55C (  -73.5 mV) | u= 93.21% | Qcool= 221.5kW | Qit= 175.4kW | NORMALIDAD
+t=12090s | T= 22.41C | Vmed=2.664V | e= -0.48C (  -63.7 mV) | u= 93.05% | Qcool= 221.1kW | Qit= 176.7kW | NORMALIDAD
+t=12120s | T= 22.23C | Vmed=2.630V | e= -0.22C (  -29.5 mV) | u= 92.15% | Qcool= 218.9kW | Qit= 173.8kW | NORMALIDAD
+t=12150s | T= 22.09C | Vmed=2.625V | e= -0.18C (  -24.6 mV) | u= 92.05% | Qcool= 218.7kW | Qit= 176.2kW | NORMALIDAD
+t=12180s | T= 21.97C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 91.52% | Qcool= 217.4kW | Qit= 178.9kW | NORMALIDAD
+t=12210s | T= 21.86C | Vmed=2.581V | e= +0.15C (  +19.4 mV) | u= 90.81% | Qcool= 215.8kW | Qit= 177.2kW | NORMALIDAD
+t=12240s | T= 21.79C | Vmed=2.581V | e= +0.15C (  +19.4 mV) | u= 90.77% | Qcool= 215.7kW | Qit= 178.6kW | NORMALIDAD
+t=12270s | T= 21.75C | Vmed=2.576V | e= +0.18C (  +24.2 mV) | u= 90.60% | Qcool= 215.3kW | Qit= 181.2kW | NORMALIDAD
+t=12300s | T= 21.73C | Vmed=2.571V | e= +0.22C (  +29.1 mV) | u= 90.41% | Qcool= 214.8kW | Qit= 181.0kW | NORMALIDAD
+t=12330s | T= 21.71C | Vmed=2.571V | e= +0.22C (  +29.1 mV) | u= 90.37% | Qcool= 214.7kW | Qit= 180.1kW | NORMALIDAD
+t=12360s | T= 21.70C | Vmed=2.576V | e= +0.18C (  +24.2 mV) | u= 90.46% | Qcool= 214.9kW | Qit= 183.2kW | NORMALIDAD
+t=12390s | T= 21.72C | Vmed=2.556V | e= +0.33C (  +43.8 mV) | u= 89.84% | Qcool= 213.5kW | Qit= 185.8kW | NORMALIDAD
+t=12420s | T= 21.77C | Vmed=2.566V | e= +0.26C (  +34.0 mV) | u= 90.06% | Qcool= 214.0kW | Qit= 185.1kW | NORMALIDAD
+t=12450s | T= 21.82C | Vmed=2.576V | e= +0.18C (  +24.2 mV) | u= 90.29% | Qcool= 214.5kW | Qit= 184.9kW | NORMALIDAD
+t=12480s | T= 21.84C | Vmed=2.561V | e= +0.29C (  +38.9 mV) | u= 89.82% | Qcool= 213.4kW | Qit= 183.6kW | NORMALIDAD
+t=12510s | T= 21.83C | Vmed=2.571V | e= +0.22C (  +29.1 mV) | u= 90.04% | Qcool= 213.9kW | Qit= 178.6kW | NORMALIDAD
+t=12540s | T= 21.78C | Vmed=2.576V | e= +0.18C (  +24.2 mV) | u= 90.14% | Qcool= 214.2kW | Qit= 177.3kW | NORMALIDAD
+t=12570s | T= 21.72C | Vmed=2.561V | e= +0.29C (  +38.9 mV) | u= 89.66% | Qcool= 213.0kW | Qit= 174.9kW | NORMALIDAD
+t=12600s | T= 21.64C | Vmed=2.551V | e= +0.37C (  +48.7 mV) | u= 89.31% | Qcool= 212.2kW | Qit= 173.5kW | NORMALIDAD
+t=12630s | T= 21.54C | Vmed=2.542V | e= +0.44C (  +58.5 mV) | u= 88.94% | Qcool= 211.3kW | Qit= 171.3kW | NORMALIDAD
+t=12660s | T= 21.47C | Vmed=2.527V | e= +0.55C (  +73.1 mV) | u= 88.41% | Qcool= 210.1kW | Qit= 173.0kW | NORMALIDAD
+t=12690s | T= 21.42C | Vmed=2.522V | e= +0.59C (  +78.0 mV) | u= 88.15% | Qcool= 209.4kW | Qit= 173.7kW | NORMALIDAD
+t=12720s | T= 21.39C | Vmed=2.517V | e= +0.62C (  +82.9 mV) | u= 87.87% | Qcool= 208.8kW | Qit= 172.6kW | NORMALIDAD
+t=12750s | T= 21.34C | Vmed=2.507V | e= +0.70C (  +92.7 mV) | u= 87.45% | Qcool= 207.8kW | Qit= 172.7kW | NORMALIDAD
+t=12780s | T= 21.30C | Vmed=2.498V | e= +0.77C ( +102.4 mV) | u= 87.01% | Qcool= 206.7kW | Qit= 170.0kW | NORMALIDAD
+t=12810s | T= 21.26C | Vmed=2.502V | e= +0.73C (  +97.6 mV) | u= 86.98% | Qcool= 206.7kW | Qit= 168.8kW | NORMALIDAD
+t=12840s | T= 21.23C | Vmed=2.478V | e= +0.91C ( +122.0 mV) | u= 86.10% | Qcool= 204.6kW | Qit= 171.3kW | NORMALIDAD
+t=12870s | T= 21.26C | Vmed=2.498V | e= +0.77C ( +102.4 mV) | u= 86.47% | Qcool= 205.5kW | Qit= 173.6kW | NORMALIDAD
+t=12900s | T= 21.29C | Vmed=2.502V | e= +0.73C (  +97.6 mV) | u= 86.44% | Qcool= 205.4kW | Qit= 174.8kW | NORMALIDAD
+t=12930s | T= 21.30C | Vmed=2.517V | e= +0.62C (  +82.9 mV) | u= 86.71% | Qcool= 206.0kW | Qit= 174.9kW | NORMALIDAD
+t=12960s | T= 21.33C | Vmed=2.517V | e= +0.62C (  +82.9 mV) | u= 86.57% | Qcool= 205.7kW | Qit= 174.2kW | NORMALIDAD
+t=12990s | T= 21.34C | Vmed=2.507V | e= +0.70C (  +92.7 mV) | u= 86.15% | Qcool= 204.7kW | Qit= 172.6kW | NORMALIDAD
+t=13020s | T= 21.32C | Vmed=2.507V | e= +0.70C (  +92.7 mV) | u= 85.99% | Qcool= 204.3kW | Qit= 170.3kW | NORMALIDAD
+t=13050s | T= 21.33C | Vmed=2.512V | e= +0.66C (  +87.8 mV) | u= 85.98% | Qcool= 204.3kW | Qit= 174.0kW | NORMALIDAD
+t=13080s | T= 21.37C | Vmed=2.502V | e= +0.73C (  +97.6 mV) | u= 85.55% | Qcool= 203.3kW | Qit= 173.9kW | NORMALIDAD
+t=13110s | T= 21.43C | Vmed=2.527V | e= +0.55C (  +73.1 mV) | u= 86.11% | Qcool= 204.6kW | Qit= 174.9kW | NORMALIDAD
+t=13140s | T= 21.48C | Vmed=2.532V | e= +0.51C (  +68.2 mV) | u= 86.13% | Qcool= 204.6kW | Qit= 174.5kW | NORMALIDAD
+t=13170s | T= 21.51C | Vmed=2.546V | e= +0.40C (  +53.6 mV) | u= 86.45% | Qcool= 205.4kW | Qit= 174.2kW | NORMALIDAD
+t=13200s | T= 21.56C | Vmed=2.542V | e= +0.44C (  +58.5 mV) | u= 86.21% | Qcool= 204.8kW | Qit= 177.7kW | NORMALIDAD
+t=13230s | T= 21.62C | Vmed=2.556V | e= +0.33C (  +43.8 mV) | u= 86.55% | Qcool= 205.6kW | Qit= 174.6kW | NORMALIDAD
+t=13260s | T= 21.67C | Vmed=2.566V | e= +0.26C (  +34.0 mV) | u= 86.76% | Qcool= 206.1kW | Qit= 178.0kW | NORMALIDAD
+t=13290s | T= 21.72C | Vmed=2.566V | e= +0.26C (  +34.0 mV) | u= 86.70% | Qcool= 206.0kW | Qit= 177.2kW | NORMALIDAD
+t=13320s | T= 21.79C | Vmed=2.571V | e= +0.22C (  +29.1 mV) | u= 86.79% | Qcool= 206.2kW | Qit= 178.7kW | NORMALIDAD
+t=13350s | T= 21.83C | Vmed=2.576V | e= +0.18C (  +24.2 mV) | u= 86.89% | Qcool= 206.4kW | Qit= 176.2kW | NORMALIDAD
+t=13380s | T= 21.86C | Vmed=2.571V | e= +0.22C (  +29.1 mV) | u= 86.70% | Qcool= 206.0kW | Qit= 175.4kW | NORMALIDAD
+t=13410s | T= 21.86C | Vmed=2.576V | e= +0.18C (  +24.2 mV) | u= 86.80% | Qcool= 206.2kW | Qit= 172.6kW | NORMALIDAD
+t=13440s | T= 21.85C | Vmed=2.586V | e= +0.11C (  +14.5 mV) | u= 87.05% | Qcool= 206.8kW | Qit= 173.7kW | NORMALIDAD
+t=13470s | T= 21.87C | Vmed=2.595V | e= +0.04C (   +4.7 mV) | u= 87.31% | Qcool= 207.4kW | Qit= 177.5kW | NORMALIDAD
+t=13500s | T= 21.90C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 87.16% | Qcool= 207.1kW | Qit= 177.4kW | NORMALIDAD
+t=13530s | T= 21.89C | Vmed=2.586V | e= +0.11C (  +14.5 mV) | u= 87.00% | Qcool= 206.7kW | Qit= 174.1kW | NORMALIDAD
+t=13560s | T= 21.89C | Vmed=2.581V | e= +0.15C (  +19.4 mV) | u= 86.83% | Qcool= 206.3kW | Qit= 175.6kW | NORMALIDAD
+t=13590s | T= 21.92C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 87.09% | Qcool= 206.9kW | Qit= 176.8kW | NORMALIDAD
+t=13620s | T= 21.93C | Vmed=2.595V | e= +0.04C (   +4.7 mV) | u= 87.21% | Qcool= 207.2kW | Qit= 175.6kW | NORMALIDAD
+t=13650s | T= 21.96C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 87.06% | Qcool= 206.9kW | Qit= 177.1kW | NORMALIDAD
+t=13680s | T= 21.99C | Vmed=2.595V | e= +0.04C (   +4.7 mV) | u= 87.19% | Qcool= 207.2kW | Qit= 176.9kW | NORMALIDAD
+t=13710s | T= 22.00C | Vmed=2.600V | e= -0.00C (   -0.2 mV) | u= 87.33% | Qcool= 207.5kW | Qit= 176.8kW | NORMALIDAD
+t=13740s | T= 22.01C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 87.47% | Qcool= 207.8kW | Qit= 176.4kW | NORMALIDAD
+t=13770s | T= 22.01C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 87.48% | Qcool= 207.8kW | Qit= 174.9kW | NORMALIDAD
+t=13800s | T= 21.96C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 87.49% | Qcool= 207.9kW | Qit= 172.7kW | NORMALIDAD
+t=13830s | T= 21.95C | Vmed=2.595V | e= +0.04C (   +4.7 mV) | u= 87.21% | Qcool= 207.2kW | Qit= 176.1kW | NORMALIDAD
+t=13860s | T= 21.93C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 87.06% | Qcool= 206.8kW | Qit= 172.6kW | NORMALIDAD
+t=13890s | T= 21.93C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 87.04% | Qcool= 206.8kW | Qit= 176.4kW | NORMALIDAD
+t=13920s | T= 21.96C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 87.02% | Qcool= 206.8kW | Qit= 179.0kW | NORMALIDAD
+t=13950s | T= 22.02C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 87.01% | Qcool= 206.7kW | Qit= 181.3kW | NORMALIDAD
+t=13980s | T= 22.06C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 87.42% | Qcool= 207.7kW | Qit= 176.7kW | NORMALIDAD
+t=14010s | T= 22.07C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 87.43% | Qcool= 207.7kW | Qit= 173.1kW | NORMALIDAD
+t=14040s | T= 22.03C | Vmed=2.610V | e= -0.07C (  -10.0 mV) | u= 87.58% | Qcool= 208.1kW | Qit= 173.6kW | NORMALIDAD
+t=14070s | T= 21.99C | Vmed=2.605V | e= -0.04C (   -5.1 mV) | u= 87.46% | Qcool= 207.8kW | Qit= 172.1kW | NORMALIDAD
+t=14100s | T= 21.93C | Vmed=2.590V | e= +0.07C (   +9.6 mV) | u= 87.03% | Qcool= 206.8kW | Qit= 169.0kW | NORMALIDAD
+t=14130s | T= 21.86C | Vmed=2.581V | e= +0.15C (  +19.4 mV) | u= 86.73% | Qcool= 206.1kW | Qit= 169.9kW | NORMALIDAD
+t=14160s | T= 21.80C | Vmed=2.571V | e= +0.22C (  +29.1 mV) | u= 86.41% | Qcool= 205.3kW | Qit= 169.4kW | NORMALIDAD
+t=14190s | T= 21.76C | Vmed=2.566V | e= +0.26C (  +34.0 mV) | u= 86.22% | Qcool= 204.9kW | Qit= 167.6kW | NORMALIDAD
+t=14220s | T= 21.70C | Vmed=2.571V | e= +0.22C (  +29.1 mV) | u= 86.30% | Qcool= 205.1kW | Qit= 169.0kW | NORMALIDAD
+t=14250s | T= 21.68C | Vmed=2.566V | e= +0.26C (  +34.0 mV) | u= 86.11% | Qcool= 204.6kW | Qit= 172.0kW | NORMALIDAD
+t=14280s | T= 21.68C | Vmed=2.546V | e= +0.40C (  +53.6 mV) | u= 85.48% | Qcool= 203.1kW | Qit= 172.4kW | NORMALIDAD
+t=14310s | T= 21.69C | Vmed=2.556V | e= +0.33C (  +43.8 mV) | u= 85.68% | Qcool= 203.6kW | Qit= 172.0kW | NORMALIDAD
+t=14340s | T= 21.70C | Vmed=2.556V | e= +0.33C (  +43.8 mV) | u= 85.61% | Qcool= 203.4kW | Qit= 171.9kW | NORMALIDAD
+t=14370s | T= 21.70C | Vmed=2.561V | e= +0.29C (  +38.9 mV) | u= 85.68% | Qcool= 203.6kW | Qit= 170.8kW | NORMALIDAD
+t=14400s | T= 21.70C | Vmed=2.566V | e= +0.26C (  +34.0 mV) | u= 85.76% | Qcool= 203.8kW | Qit= 173.0kW | NORMALIDAD
