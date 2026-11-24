@@ -10,3 +10,6 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+# PDF de la entrega (se envían por mail, no forman parte del código)
+*.pdf
