@@ -30,7 +30,7 @@ Este repositorio contiene el programa que simula y verifica el sistema de contro
 
 | Comando | Qué hace |
 |---|---|
-| `python simulacion_crah.py` | Ejecuta el ensayo completo de 4 horas. Imprime los parámetros del lazo, extractos del tablero de control y las métricas de desempeño. Genera `tablero_control.log` y los gráficos `g1` a `g5`. |
+| `python simulacion_crah.py` | Ejecuta el ensayo completo de 4 horas. Imprime los parámetros del lazo, extractos del tablero de control, las métricas de desempeño y dos ensayos de sensibilidad: el aporte del anti-windup y el pico de temperatura según cuánto tarde en entrar la unidad de reserva N+1. Genera `tablero_control.log` y los gráficos `g1` a `g5`. |
 | `python simulacion_crah.py --tiempo-real` | Reproduce el ensayo en tiempo acelerado. Los gráficos de temperatura, señal de control y balance térmico se actualizan en vivo, y el tablero se imprime en la consola en cada ciclo de scan (cada 30 s simulados). |
 | `python simulacion_crah.py --tiempo-real --velocidad 60` | Igual que el anterior, pero con 60 s simulados por cada segundo real. Por defecto son 120, de modo que el ensayo dura 2 minutos. |
 | `python diagrama_bloques.py` | Regenera el diagrama de bloques `g0_diagrama_bloques.png`. |
@@ -70,6 +70,8 @@ Resultados principales:
 | Tiempo fuera del rango ASHRAE (18-27 °C) | 0,2 % | 55 % |
 | Temperatura máxima | 27,3 °C | 32,6 °C |
 
+Con la conmutación actual de la reserva (5 min), la falla de una unidad lleva la sala a 27,3 °C durante 36 s. Si la unidad N+1 entra en menos de 4 minutos, el pico queda por debajo de 27 °C (26,3 °C a 4 min, 24,3 °C a 2 min).
+
 ## Modificar el ensayo
 
-Todos los parámetros están declarados como constantes al comienzo de `simulacion_crah.py`: consigna, capacidad instalada, sintonía del controlador (`TAU_LC`, `TI`, `TS`), cadena de medición y umbrales. Los instantes de las perturbaciones están en la sección 2 del archivo. La función `simular(con_integral=False)` reproduce el ensayo con control proporcional puro.
+Todos los parámetros están declarados como constantes al comienzo de `simulacion_crah.py`: consigna, capacidad instalada, sintonía del controlador (`TAU_LC`, `TI`, `TS`), cadena de medición y umbrales. Los instantes de las perturbaciones y el tiempo de entrada de la reserva (`T_CONMUTACION_N1`) están en la sección 2 del archivo. La función `simular()` acepta `con_integral=False` (control proporcional puro con polarización fija), `anti_windup=False` y `t_conmutacion_n1=<segundos>`.

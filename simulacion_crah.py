@@ -42,7 +42,7 @@ C_TERM = 2.4e6         # Capacidad termica efectiva de la sala [J/C] (aire + rac
 UA = 2.0e3             # Conductancia hacia el resto del edificio [W/C]
 Q_IT_NOM = 160e3       # Carga termica IT nominal [W] = 20 racks x 8 kW
 Q_COOL_MAX = 270e3     # Capacidad frigorifica activa [W] = 3 CRAH x 90 kW (+1 en reserva N+1)
-T_AMB_NOM = 25.0       # Temperatura del recinto contiguo / plenum de retorno [C]
+T_AMB_NOM = 25.0       # Temperatura del entorno de la sala (recintos contiguos) [C]
 T_INICIAL = 26.5       # Temperatura inicial de la sala [C]
 
 # TAU = C/UA = 1200 s ; ganancia estatica respecto de u: K = Q_COOL_MAX/(100*UA)
@@ -85,7 +85,11 @@ def cuantizar(v):
     return codigo, codigo * V_REF_ADC / niveles
 
 
-def zona(err_abs):
+def zona(err_abs, t_med=None):
+    """Zona de operacion (Tabla 2). La zona de falla depende de la temperatura medida:
+    fuera del rango recomendado ASHRAE (18-27 C), sin importar el error."""
+    if t_med is not None and not (ASHRAE_MIN <= t_med <= ASHRAE_MAX):
+        return "ZONA DE FALLA"
     if err_abs <= BANDA_NORMAL:
         return "NORMALIDAD"
     if err_abs <= BANDA_ALARMA:
@@ -101,17 +105,19 @@ T_OLA_CALOR = 2700.0    # 45 min
 T_ALTA_RACK = 6000.0    # 100 min
 T_PUERTA = 9000.0       # 150 min
 T_FALLA_CRAH = 11400.0  # 190 min
+T_CONMUTACION_N1 = 300.0  # Tiempo hasta que entra en servicio la unidad de reserva N+1 [s]
 
 
-def perturbaciones(t):
+def perturbaciones(t, t_conmutacion=T_CONMUTACION_N1):
     """Devuelve (T_amb, Q_extra_IT, Q_cool_max_disponible) para el instante t [s]."""
     t_amb = T_AMB_NOM
     q_extra = 0.0
     factor_capacidad = 1.0
     unidades = 3.0
 
-    # (a) EXTERNA - Ola de calor: la temperatura exterior sube 13 C en rampa de 10 min.
-    #     Ademas degrada el intercambio en el condensador: -12 % de capacidad frigorifica.
+    # (a) EXTERNA - Ola de calor: el calor exterior eleva 13 C la temperatura del entorno
+    #     de la sala (T_amb, 25 -> 38 C) en rampa de 10 min. Ademas degrada el
+    #     intercambio en el condensador: -12 % de capacidad frigorifica.
     if t >= T_OLA_CALOR:
         avance = min(1.0, (t - T_OLA_CALOR) / 600.0)
         t_amb = T_AMB_NOM + 13.0 * avance
@@ -125,9 +131,9 @@ def perturbaciones(t):
     if T_PUERTA <= t < T_PUERTA + 90.0:
         q_extra += 25e3
 
-    # (d) INTERNA - Falla de 1 de los 3 CRAH durante 300 s, hasta que arranca la
-    #     unidad redundante N+1.
-    if T_FALLA_CRAH <= t < T_FALLA_CRAH + 300.0:
+    # (d) INTERNA - Falla de 1 de los 3 CRAH hasta que arranca la unidad redundante N+1
+    #     (t_conmutacion segundos despues de la falla).
+    if T_FALLA_CRAH <= t < T_FALLA_CRAH + t_conmutacion:
         unidades = 2.0
 
     q_max = Q_COOL_MAX * factor_capacidad * (unidades / 3.0)
@@ -138,8 +144,14 @@ def perturbaciones(t):
 # 3. LAZO DE CONTROL
 # ----------------------------------------------------------------------------
 
-def simular(semilla=7, con_integral=True):
-    """con_integral=False -> controlador solo Proporcional con bias (para comparar)."""
+def simular(semilla=7, con_integral=True, anti_windup=True, t_conmutacion_n1=T_CONMUTACION_N1):
+    """Simula el ensayo completo.
+
+    con_integral=False -> controlador solo Proporcional, con una polarizacion fija (bias)
+                          igual a la senal que requiere el punto de operacion nominal.
+    anti_windup=False  -> el integrador sigue acumulando aunque el actuador sature.
+    t_conmutacion_n1   -> segundos que tarda en entrar la unidad de reserva tras la falla.
+    """
     rng = np.random.default_rng(semilla)
 
     n = int(T_FINAL / DT) + 1
@@ -171,7 +183,7 @@ def simular(semilla=7, con_integral=True):
 
     for k in range(n):
         t = tiempo[k]
-        t_amb, q_extra, q_max = perturbaciones(t)
+        t_amb, q_extra, q_max = perturbaciones(t, t_conmutacion_n1)
 
         # Carga IT: nominal + perturbaciones + fluctuacion del uso de CPU (sigma = 2.5 %)
         eta = rho * eta + np.sqrt(1.0 - rho ** 2) * rng.standard_normal()
@@ -181,13 +193,14 @@ def simular(semilla=7, con_integral=True):
 
         # --- Ciclo de scan del controlador (cada TS segundos) ---
         if abs(t % TS) < DT / 2.0:
-            # Medicion: sensor -> transmisor -> shunt -> ADC
+            # Medicion: sensor -> transmisor -> shunt -> ADC (se digitaliza la medicion)
             t_sensada = temp[k] + SIGMA_SENSOR * rng.standard_normal()
             v_sensada = temp_a_volt(t_sensada)
             _, v_adc = cuantizar(v_sensada)
             t_med = volt_a_temp(v_adc)
 
-            e = R_TEMP - t_med          # Senal de error [C]
+            # Comparador digital: la consigna es un parametro del BMS
+            e = R_TEMP - t_med          # Senal de error e(kT) [C]
 
             # PI de accion inversa: la planta tiene ganancia negativa respecto de u.
             u_p = -KP * e
@@ -195,7 +208,7 @@ def simular(semilla=7, con_integral=True):
             u_tent = u_p + integral_tent
 
             # Anti-windup por clamping: solo se integra si la salida no satura.
-            if con_integral and U_MIN <= u_tent <= U_MAX:
+            if con_integral and (not anti_windup or U_MIN <= u_tent <= U_MAX):
                 integral = integral_tent
             u_actual = float(np.clip(u_p + integral, U_MIN, U_MAX))
         else:
@@ -219,7 +232,7 @@ def simular(semilla=7, con_integral=True):
                 f"t={int(t):5d}s | T={temp[k]:6.2f}C | Vmed={temp_a_volt(t_med):5.3f}V | "
                 f"e={e:+6.2f}C ({e * (V_MAX - V_MIN) / (T_SPAN_MAX - T_SPAN_MIN) * 1000:+7.1f} mV) | "
                 f"u={u_actual:6.2f}% | Qcool={q_refrig / 1000:6.1f}kW | "
-                f"Qit={q_it / 1000:6.1f}kW | {zona(abs(e))}"
+                f"Qit={q_it / 1000:6.1f}kW | {zona(abs(e), t_med)}"
             )
 
     return dict(t=tiempo, temp=temp, temp_med=temp_medida, error=error, u=u,
@@ -441,7 +454,8 @@ def tiempo_real(r, velocidad=120.0):
 
         e = r["error"][k]
         panel.set_text(f"t = {r['t'][k] / 60.0:6.1f} min   T = {r['temp'][k]:5.2f} °C   "
-                       f"e = {e:+5.2f} °C   u = {r['u'][k]:5.1f} %   {zona(abs(e))}")
+                       f"e = {e:+5.2f} °C   u = {r['u'][k]:5.1f} %   "
+                       f"{zona(abs(e), r['temp_med'][k])}")
 
         if t_sim >= T_FINAL:
             anim.event_source.stop()
@@ -533,3 +547,23 @@ if __name__ == "__main__":
     print(f"Tiempo fuera del rango recomendado ASHRAE    : "
           f"{100*np.mean((r['temp']>ASHRAE_MAX)|(r['temp']<ASHRAE_MIN)):.1f} % del ensayo")
     print(f"u maxima                                     : {np.max(r['u']):.1f} %")
+
+    # --- Aporte del anti-windup (falla de CRAH) ---
+    r_nw = simular(anti_windup=False)
+    tras_n1 = r["t"] > T_FALLA_CRAH + T_CONMUTACION_N1
+    print()
+    print("=" * 96)
+    print("ENSAYOS DE SENSIBILIDAD")
+    print("=" * 96)
+    print(f"Minimo tras la falla de CRAH, con anti-windup : {np.min(r['temp'][tras_n1]):.2f} C")
+    print(f"Minimo tras la falla de CRAH, sin anti-windup : {np.min(r_nw['temp'][tras_n1]):.2f} C")
+
+    # --- Tiempo de conmutacion de la unidad N+1 vs. pico de temperatura ---
+    print()
+    print("Tiempo de entrada de la N+1 -> pico de temperatura durante la falla")
+    tras_falla = r["t"] >= T_FALLA_CRAH
+    for t_c in (60, 120, 180, 240, 300):
+        rc = simular(t_conmutacion_n1=float(t_c))
+        pico = np.max(rc["temp"][tras_falla])
+        fuera = np.sum(rc["temp"][tras_falla] > ASHRAE_MAX) * DT
+        print(f"  {t_c:3d} s -> pico {pico:5.2f} C  (tiempo por encima de {ASHRAE_MAX:.0f} C: {fuera:.0f} s)")

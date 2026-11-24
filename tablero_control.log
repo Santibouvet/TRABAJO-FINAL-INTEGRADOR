@@ -388,7 +388,7 @@ t=11580s | T= 25.31C | Vmed=3.025V | e= -3.19C ( -425.4 mV) | u=100.00% | Qcool=
 t=11610s | T= 25.81C | Vmed=3.109V | e= -3.81C ( -508.5 mV) | u=100.00% | Qcool= 158.4kW | Qit= 174.2kW | ALARMA MAYOR
 t=11640s | T= 26.30C | Vmed=3.177V | e= -4.33C ( -576.9 mV) | u=100.00% | Qcool= 158.4kW | Qit= 174.1kW | ALARMA MAYOR
 t=11670s | T= 26.80C | Vmed=3.240V | e= -4.80C ( -640.5 mV) | u=100.00% | Qcool= 158.4kW | Qit= 175.7kW | ALARMA MAYOR
-t=11700s | T= 27.30C | Vmed=3.309V | e= -5.32C ( -708.9 mV) | u=100.00% | Qcool= 237.6kW | Qit= 177.3kW | ALARMA MAYOR
+t=11700s | T= 27.30C | Vmed=3.309V | e= -5.32C ( -708.9 mV) | u=100.00% | Qcool= 237.6kW | Qit= 177.3kW | ZONA DE FALLA
 t=11730s | T= 26.80C | Vmed=3.240V | e= -4.80C ( -640.5 mV) | u=100.00% | Qcool= 237.6kW | Qit= 175.5kW | ALARMA MAYOR
 t=11760s | T= 26.32C | Vmed=3.172V | e= -4.29C ( -572.0 mV) | u=100.00% | Qcool= 237.6kW | Qit= 176.8kW | ALARMA MAYOR
 t=11790s | T= 25.82C | Vmed=3.104V | e= -3.78C ( -503.6 mV) | u=100.00% | Qcool= 237.6kW | Qit= 171.6kW | ALARMA MAYOR
