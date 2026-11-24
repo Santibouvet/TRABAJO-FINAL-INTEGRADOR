@@ -74,4 +74,4 @@ Con la conmutación actual de la reserva (5 min), la falla de una unidad lleva l
 
 ## Modificar el ensayo
 
-Todos los parámetros están declarados como constantes al comienzo de `simulacion_crah.py`: consigna, capacidad instalada, sintonía del controlador (`TAU_LC`, `TI`, `TS`), cadena de medición y umbrales. Los instantes de las perturbaciones y el tiempo de entrada de la reserva (`T_CONMUTACION_N1`) están en la sección 2 del archivo. La función `simular()` acepta `con_integral=False` (control proporcional puro con polarización fija), `anti_windup=False` y `t_conmutacion_n1=<segundos>`.
+Todos los parámetros están declarados como constantes al comienzo de `simulacion_crah.py`: consigna, capacidad instalada, sintonía del controlador por asignación de polos (`TAU_DOM` y `ZETA`, de los que se calculan `KP` y `TI`) y tiempo de scan `TS`, cadena de medición y umbrales. Los instantes de las perturbaciones y el tiempo de entrada de la reserva (`T_CONMUTACION_N1`) están en la sección 2 del archivo. La función `simular()` acepta `con_integral=False` (control proporcional puro con polarización fija), `anti_windup=False` y `t_conmutacion_n1=<segundos>`.

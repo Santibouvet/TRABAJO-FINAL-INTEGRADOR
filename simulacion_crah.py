@@ -49,10 +49,16 @@ T_INICIAL = 26.5       # Temperatura inicial de la sala [C]
 TAU = C_TERM / UA
 K_PLANTA = Q_COOL_MAX / (100.0 * UA)   # [C / %]
 
-# --- Controlador PI (sintonia IMC, lazo cerrado ~5x mas rapido que la planta) ---
-TAU_LC = 240.0                          # Constante de tiempo deseada en lazo cerrado [s]
-KP = TAU / (K_PLANTA * TAU_LC)          # Ganancia proporcional [% / C]
-TI = 500.0                              # Tiempo integral [s]
+# --- Controlador PI: sintonia por asignacion de polos ---
+# Ecuacion caracteristica del lazo cerrado (planta de 1er orden + PI):
+#   tau*s^2 + (1 + K*Kp)*s + K*Kp/Ti = 0   <=>   s^2 + 2*sigma*s + wn^2 = 0
+# Especificaciones: constante de tiempo dominante 1/sigma y amortiguamiento zeta.
+TAU_DOM = 400.0                         # Constante de tiempo dominante deseada [s]
+ZETA = np.sqrt(3.0) / 2.0               # Amortiguamiento deseado (~0,866: polos a 30 grados)
+SIGMA_LC = 1.0 / TAU_DOM                # Parte real de los polos [1/s]
+WN_LC = SIGMA_LC / ZETA                 # Frecuencia natural [rad/s]
+KP = (2.0 * SIGMA_LC * TAU - 1.0) / K_PLANTA          # Ganancia proporcional [% / C]
+TI = K_PLANTA * KP / (TAU * WN_LC ** 2)               # Tiempo integral [s]
 KI = KP / TI                            # Ganancia integral [% / (C*s)]
 U_MIN, U_MAX = 0.0, 100.0               # Saturacion del actuador [%]
 
@@ -495,6 +501,8 @@ if __name__ == "__main__":
     print(f"Consigna R                : {R_TEMP:.1f} C  ->  {temp_a_volt(R_TEMP):.3f} V")
     print(f"Constante de tiempo TAU   : {TAU:.0f} s ({TAU/60:.1f} min)")
     print(f"Ganancia de planta K      : {K_PLANTA:.3f} C/%")
+    print(f"Asignacion de polos       : tau_dom = {TAU_DOM:.0f} s, zeta = {ZETA:.3f}, "
+          f"wn = {WN_LC:.5f} rad/s")
     print(f"Kp                        : {KP:.3f} %/C")
     print(f"Ti                        : {TI:.0f} s   ->  Ki = {KI:.5f} %/(C*s)")
     print(f"Tiempo de scan Ts         : {TS:.0f} s")
@@ -567,3 +575,20 @@ if __name__ == "__main__":
         pico = np.max(rc["temp"][tras_falla])
         fuera = np.sum(rc["temp"][tras_falla] > ASHRAE_MAX) * DT
         print(f"  {t_c:3d} s -> pico {pico:5.2f} C  (tiempo por encima de {ASHRAE_MAX:.0f} C: {fuera:.0f} s)")
+
+    # --- Eleccion del amortiguamiento: misma velocidad (Kp fijo), distinto zeta -> Ti ---
+    ti_original = TI
+    print()
+    print("Sintonia alternativa -> retorno a la banda tras la ola de calor / tiempo fuera de banda")
+    alternativas = [(f"zeta = {z:.2f}", K_PLANTA * KP / (TAU * (SIGMA_LC / z) ** 2))
+                    for z in (1.0 / np.sqrt(2.0), ZETA, 1.0)] + [("IMC puro (Ti = tau)", TAU)]
+    for etiqueta, ti in alternativas:
+        TI, KI = ti, KP / ti
+        ra = simular()
+        en_banda = np.abs(ra["temp"] - R_TEMP) <= BANDA_NORMAL
+        ola = (ra["t"] >= T_OLA_CALOR) & (ra["t"] < T_ALTA_RACK)
+        t_pico = ra["t"][ola][np.argmax(ra["temp"][ola])]
+        vuelta = ra["t"][(ra["t"] >= t_pico) & en_banda][0]
+        print(f"  {etiqueta:<20s} Ti = {ti:6.0f} s -> {(vuelta - T_OLA_CALOR) / 60:5.1f} min"
+              f"  /  {100 * np.mean(~en_banda):4.1f} %")
+    TI, KI = ti_original, KP / ti_original
